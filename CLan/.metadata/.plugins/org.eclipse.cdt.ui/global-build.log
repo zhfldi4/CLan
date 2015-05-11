@@ -594,3 +594,66 @@ Finished building target: absolute
 17:17:36 **** Incremental Build of configuration Debug for project absolute ****
 make all 
 make: `all'를 위해 할 일이 없습니다
+17:25:17 **** Build of configuration Debug for project bitset ****
+make all 
+Building file: ../bitset.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"bitset.d" -MT"bitset.d" -o "bitset.o" "../bitset.c"
+Finished building: ../bitset.c
+ 
+Building target: bitset
+Invoking: GCC C Linker
+gcc  -o "bitset"  ./bitset.o   
+Finished building target: bitset
+ 
+17:25:28 **** Incremental Build of configuration Debug for project bitset ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+17:25:30 **** Incremental Build of configuration Debug for project bitset ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+17:29:01 **** Build of configuration Debug for project binary ****
+make all 
+Building file: ../binary.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"binary.d" -MT"binary.d" -o "binary.o" "../binary.c"
+Finished building: ../binary.c
+ 
+Building target: binary
+Invoking: GCC C Linker
+gcc  -o "binary"  ./binary.o   
+Finished building target: binary
+ 
+17:29:05 **** Incremental Build of configuration Debug for project binary ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+17:31:33 **** Build of configuration Debug for project explicit ****
+make all 
+Building file: ../explicit.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"explicit.d" -MT"explicit.d" -o "explicit.o" "../explicit.c"
+Finished building: ../explicit.c
+ 
+Building target: explicit
+Invoking: GCC C Linker
+gcc  -o "explicit"  ./explicit.o   
+Finished building target: explicit
+ 
+17:31:36 **** Incremental Build of configuration Debug for project explicit ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+17:32:46 **** Build of configuration Debug for project implicit ****
+make all 
+Building file: ../implicit.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"implicit.d" -MT"implicit.d" -o "implicit.o" "../implicit.c"
+Finished building: ../implicit.c
+ 
+Building target: implicit
+Invoking: GCC C Linker
+gcc  -o "implicit"  ./implicit.o   
+Finished building target: implicit
+ 
+17:32:48 **** Incremental Build of configuration Debug for project implicit ****
+make all 
+make: `all'를 위해 할 일이 없습니다

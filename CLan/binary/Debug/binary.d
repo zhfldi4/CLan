@@ -1,0 +1,1 @@
+binary.d: ../binary.c
