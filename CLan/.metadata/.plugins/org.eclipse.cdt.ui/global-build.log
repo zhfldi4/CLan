@@ -76,3 +76,111 @@ Finished building target: nestedMacro
 13:05:26 **** Incremental Build of configuration Debug for project nestedMacro ****
 make all 
 make: `all'를 위해 할 일이 없습니다
+13:20:37 **** Build of configuration Debug for project formatIndicate ****
+make all 
+Building file: ../format.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"format.d" -MT"format.d" -o "format.o" "../format.c"
+Finished building: ../format.c
+ 
+Building target: formatIndicate
+Invoking: GCC C Linker
+gcc  -o "formatIndicate"  ./format.o   
+Finished building target: formatIndicate
+ 
+13:20:40 **** Incremental Build of configuration Debug for project formatIndicate ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:23:22 **** Build of configuration Debug for project Input ****
+make all 
+Building file: ../scanf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scanf.d" -MT"scanf.d" -o "scanf.o" "../scanf.c"
+Finished building: ../scanf.c
+ 
+Building target: Input
+Invoking: GCC C Linker
+gcc  -o "Input"  ./scanf.o   
+Finished building target: Input
+ 
+13:23:25 **** Incremental Build of configuration Debug for project Input ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:27:12 **** Incremental Build of configuration Debug for project Input ****
+make all 
+Building file: ../scanf2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scanf2.d" -MT"scanf2.d" -o "scanf2.o" "../scanf2.c"
+../scanf2.c: In function ‘main’:
+../scanf2.c:20:29: error: expected statement before ‘)’ token
+make: *** [scanf2.o] 오류 1
+13:27:24 **** Incremental Build of configuration Debug for project Input ****
+make all 
+Building file: ../scanf2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scanf2.d" -MT"scanf2.d" -o "scanf2.o" "../scanf2.c"
+../scanf2.c: In function ‘main’:
+../scanf2.c:20:29: error: expected statement before ‘)’ token
+make: *** [scanf2.o] 오류 1
+13:27:27 **** Incremental Build of configuration Debug for project Input ****
+make all 
+Building file: ../scanf2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scanf2.d" -MT"scanf2.d" -o "scanf2.o" "../scanf2.c"
+Finished building: ../scanf2.c
+ 
+Building target: Input
+Invoking: GCC C Linker
+gcc  -o "Input"  ./scanf.o ./scanf2.o   
+./scanf2.o: In function `main':
+/root/workspace/CLan/Input/Debug/../scanf2.c:10: multiple definition of `main'
+./scanf.o:/root/workspace/CLan/Input/Debug/../scanf.c:10: first defined here
+collect2: ld returned 1 exit status
+make: *** [Input] 오류 1
+13:27:48 **** Incremental Build of configuration Debug for project Input ****
+make all 
+Building file: ../scanf2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scanf2.d" -MT"scanf2.d" -o "scanf2.o" "../scanf2.c"
+Finished building: ../scanf2.c
+ 
+Building target: Input
+Invoking: GCC C Linker
+gcc  -o "Input"  ./scanf.o ./scanf2.o   
+./scanf2.o: In function `main':
+/root/workspace/CLan/Input/Debug/../scanf2.c:10: multiple definition of `main'
+./scanf.o:/root/workspace/CLan/Input/Debug/../scanf.c:10: first defined here
+collect2: ld returned 1 exit status
+make: *** [Input] 오류 1
+13:28:09 **** Incremental Build of configuration Debug for project Input ****
+make all 
+Building target: Input
+Invoking: GCC C Linker
+gcc  -o "Input"  ./scanf.o ./scanf2.o   
+./scanf2.o: In function `main':
+/root/workspace/CLan/Input/Debug/../scanf2.c:10: multiple definition of `main'
+./scanf.o:/root/workspace/CLan/Input/Debug/../scanf.c:10: first defined here
+collect2: ld returned 1 exit status
+make: *** [Input] 오류 1
+13:28:49 **** Incremental Build of configuration Debug for project Input ****
+make all 
+Building target: Input
+Invoking: GCC C Linker
+gcc  -o "Input"  ./scanf.o   
+Finished building target: Input
+ 
+13:28:49 **** Build of configuration Debug for project Input2 ****
+make all 
+Building file: ../scanf2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scanf2.d" -MT"scanf2.d" -o "scanf2.o" "../scanf2.c"
+Finished building: ../scanf2.c
+ 
+Building target: Input2
+Invoking: GCC C Linker
+gcc  -o "Input2"  ./scanf2.o   
+Finished building target: Input2
+ 
+13:28:52 **** Incremental Build of configuration Debug for project Input2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다

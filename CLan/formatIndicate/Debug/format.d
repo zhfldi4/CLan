@@ -1,0 +1,1 @@
+format.d: ../format.c

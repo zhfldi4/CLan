@@ -1,0 +1,10 @@
+13:28:49 **** Incremental Build of configuration Debug for project Input ****
+make all 
+Building target: Input
+Invoking: GCC C Linker
+gcc  -o "Input"  ./scanf.o   
+Finished building target: Input
+ 
+
+13:28:49 Build Finished (took 59ms)
+
