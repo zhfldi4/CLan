@@ -1,0 +1,67 @@
+/*
+ * incdec.c
+ *
+ *  Created on: 2015. 5. 11.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	puts("No 1.");
+	{
+		printf("1 2 3 4 5\n");
+
+	}
+
+	puts("No 2.");
+	{
+		int one = 1, two = 2, three = 3, four = 4, five = 5;
+
+		printf("%d %d %d %d %d\n", one, two, three, four, five);
+	}
+
+	puts("No 3.");
+	{
+		int one = 1;
+
+		printf("%d ", one++);
+		printf("%d ", one++);
+		printf("%d ", one++);
+		printf("%d ", one++);
+		printf("%d ", one++);
+
+		put("");
+	}
+
+	puts("No 4.");
+	{
+		int i;
+		int one = 1;
+
+		for (i = 0; i < 5; i++)
+			printf("%d ", one++);
+		puts("");
+	}
+
+	puts("No 5.");
+	{
+		int i;
+
+		for (i = 0; i < 5; i++) {
+			printf("%c ", '1' + i);
+		}
+		puts("");
+	}
+
+	puts("No 6.");
+	{
+		int i;
+
+		for (i = 1; i <= 5; i++)
+			printf("%d ", i);
+	}
+
+	return 0;
+}

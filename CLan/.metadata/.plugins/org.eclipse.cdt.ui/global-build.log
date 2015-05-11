@@ -423,3 +423,94 @@ Invoking: GCC C Linker
 gcc  -o "mod3"  ./mod3.o   
 Finished building target: mod3
  
+16:34:32 **** Build of configuration Debug for project IncDec ****
+make all 
+Building file: ../incdec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"incdec.d" -MT"incdec.d" -o "incdec.o" "../incdec.c"
+../incdec.c: In function ‘main’:
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+Finished building: ../incdec.c
+ 
+Building target: IncDec
+Invoking: GCC C Linker
+gcc  -o "IncDec"  ./incdec.o   
+Finished building target: IncDec
+ 
+16:34:37 **** Incremental Build of configuration Debug for project IncDec ****
+make all 
+Building file: ../incdec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"incdec.d" -MT"incdec.d" -o "incdec.o" "../incdec.c"
+../incdec.c: In function ‘main’:
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+Finished building: ../incdec.c
+ 
+Building target: IncDec
+Invoking: GCC C Linker
+gcc  -o "IncDec"  ./incdec.o   
+Finished building target: IncDec
+ 
+16:34:56 **** Incremental Build of configuration Debug for project IncDec ****
+make all 
+Building file: ../incdec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"incdec.d" -MT"incdec.d" -o "incdec.o" "../incdec.c"
+../incdec.c: In function ‘main’:
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+../incdec.c:29:61: warning: operation on ‘one’ may be undefined [-Wsequence-point]
+Finished building: ../incdec.c
+ 
+Building target: IncDec
+Invoking: GCC C Linker
+gcc  -o "IncDec"  ./incdec.o   
+Finished building target: IncDec
+ 
+16:35:30 **** Incremental Build of configuration Debug for project IncDec ****
+make all 
+Building file: ../incdec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"incdec.d" -MT"incdec.d" -o "incdec.o" "../incdec.c"
+Finished building: ../incdec.c
+ 
+Building target: IncDec
+Invoking: GCC C Linker
+gcc  -o "IncDec"  ./incdec.o   
+Finished building target: IncDec
+ 
+16:35:40 **** Incremental Build of configuration Debug for project IncDec ****
+make all 
+Building file: ../incdec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"incdec.d" -MT"incdec.d" -o "incdec.o" "../incdec.c"
+../incdec.c: In function ‘main’:
+../incdec.c:35:3: warning: implicit declaration of function ‘put’ [-Wimplicit-function-declaration]
+Finished building: ../incdec.c
+ 
+Building target: IncDec
+Invoking: GCC C Linker
+gcc  -o "IncDec"  ./incdec.o   
+./incdec.o: In function `main':
+/root/workspace/CLan/IncDec/Debug/../incdec.c:35: undefined reference to `put'
+collect2: ld returned 1 exit status
+make: *** [IncDec] 오류 1
+16:35:48 **** Incremental Build of configuration Debug for project IncDec ****
+make all 
+Building file: ../incdec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"incdec.d" -MT"incdec.d" -o "incdec.o" "../incdec.c"
+Finished building: ../incdec.c
+ 
+Building target: IncDec
+Invoking: GCC C Linker
+gcc  -o "IncDec"  ./incdec.o   
+Finished building target: IncDec
+ 
