@@ -1,0 +1,1 @@
+grade.d: ../grade.c

@@ -514,3 +514,33 @@ Invoking: GCC C Linker
 gcc  -o "IncDec"  ./incdec.o   
 Finished building target: IncDec
  
+16:50:44 **** Build of configuration Debug for project Logic ****
+make all 
+Building file: ../logic.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logic.d" -MT"logic.d" -o "logic.o" "../logic.c"
+Finished building: ../logic.c
+ 
+Building target: Logic
+Invoking: GCC C Linker
+gcc  -o "Logic"  ./logic.o   
+Finished building target: Logic
+ 
+16:50:47 **** Incremental Build of configuration Debug for project Logic ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+16:53:58 **** Build of configuration Debug for project grade ****
+make all 
+Building file: ../grade.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"grade.d" -MT"grade.d" -o "grade.o" "../grade.c"
+Finished building: ../grade.c
+ 
+Building target: grade
+Invoking: GCC C Linker
+gcc  -o "grade"  ./grade.o   
+Finished building target: grade
+ 
+16:54:07 **** Incremental Build of configuration Debug for project grade ****
+make all 
+make: `all'를 위해 할 일이 없습니다
