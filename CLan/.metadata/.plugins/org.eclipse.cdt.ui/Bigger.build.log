@@ -1,0 +1,15 @@
+17:15:28 **** Incremental Build of configuration Debug for project Bigger ****
+make all 
+Building file: ../max.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"max.d" -MT"max.d" -o "max.o" "../max.c"
+Finished building: ../max.c
+ 
+Building target: Bigger
+Invoking: GCC C Linker
+gcc  -o "Bigger"  ./max.o   
+Finished building target: Bigger
+ 
+
+17:15:28 Build Finished (took 291ms)
+

@@ -1,0 +1,1 @@
+absoulte.d: ../absoulte.c

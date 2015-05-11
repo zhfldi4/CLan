@@ -544,3 +544,53 @@ Finished building target: grade
 16:54:07 **** Incremental Build of configuration Debug for project grade ****
 make all 
 make: `all'를 위해 할 일이 없습니다
+17:14:26 **** Build of configuration Debug for project Bigger ****
+make all 
+Building file: ../max.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"max.d" -MT"max.d" -o "max.o" "../max.c"
+../max.c: In function ‘main’:
+../max.c:15:2: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat]
+../max.c:15:2: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat]
+../max.c:15:7: warning: ‘one’ is used uninitialized in this function [-Wuninitialized]
+../max.c:15:7: warning: ‘two’ is used uninitialized in this function [-Wuninitialized]
+Finished building: ../max.c
+ 
+Building target: Bigger
+Invoking: GCC C Linker
+gcc  -o "Bigger"  ./max.o   
+Finished building target: Bigger
+ 
+17:14:30 **** Incremental Build of configuration Debug for project Bigger ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+17:15:05 **** Incremental Build of configuration Debug for project Bigger ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+17:15:28 **** Incremental Build of configuration Debug for project Bigger ****
+make all 
+Building file: ../max.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"max.d" -MT"max.d" -o "max.o" "../max.c"
+Finished building: ../max.c
+ 
+Building target: Bigger
+Invoking: GCC C Linker
+gcc  -o "Bigger"  ./max.o   
+Finished building target: Bigger
+ 
+17:17:33 **** Build of configuration Debug for project absolute ****
+make all 
+Building file: ../absoulte.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"absoulte.d" -MT"absoulte.d" -o "absoulte.o" "../absoulte.c"
+Finished building: ../absoulte.c
+ 
+Building target: absolute
+Invoking: GCC C Linker
+gcc  -o "absolute"  ./absoulte.o   
+Finished building target: absolute
+ 
+17:17:36 **** Incremental Build of configuration Debug for project absolute ****
+make all 
+make: `all'를 위해 할 일이 없습니다
