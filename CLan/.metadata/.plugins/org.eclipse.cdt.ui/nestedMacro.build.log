@@ -1,0 +1,6 @@
+13:05:26 **** Incremental Build of configuration Debug for project nestedMacro ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+13:05:26 Build Finished (took 89ms)
+

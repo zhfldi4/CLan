@@ -45,3 +45,34 @@ Invoking: GCC C Linker
 gcc  -o "macrofunc"  ./macrofunc.o   
 Finished building target: macrofunc
  
+13:04:57 **** Build of configuration Debug for project nestedMacro ****
+make all 
+Building file: ../nested.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nested.d" -MT"nested.d" -o "nested.o" "../nested.c"
+../nested.c: In function ‘main’:
+../nested.c:14:2: error: too many arguments to function ‘puts’
+make: *** [nested.o] 오류 1
+13:05:13 **** Incremental Build of configuration Debug for project nestedMacro ****
+make all 
+Building file: ../nested.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nested.d" -MT"nested.d" -o "nested.o" "../nested.c"
+../nested.c: In function ‘main’:
+../nested.c:14:2: error: too many arguments to function ‘puts’
+make: *** [nested.o] 오류 1
+13:05:23 **** Incremental Build of configuration Debug for project nestedMacro ****
+make all 
+Building file: ../nested.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nested.d" -MT"nested.d" -o "nested.o" "../nested.c"
+Finished building: ../nested.c
+ 
+Building target: nestedMacro
+Invoking: GCC C Linker
+gcc  -o "nestedMacro"  ./nested.o   
+Finished building target: nestedMacro
+ 
+13:05:26 **** Incremental Build of configuration Debug for project nestedMacro ****
+make all 
+make: `all'를 위해 할 일이 없습니다
