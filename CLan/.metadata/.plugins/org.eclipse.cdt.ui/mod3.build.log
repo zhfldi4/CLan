@@ -1,0 +1,15 @@
+15:10:28 **** Incremental Build of configuration Debug for project mod3 ****
+make all 
+Building file: ../mod3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mod3.d" -MT"mod3.d" -o "mod3.o" "../mod3.c"
+Finished building: ../mod3.c
+ 
+Building target: mod3
+Invoking: GCC C Linker
+gcc  -o "mod3"  ./mod3.o   
+Finished building target: mod3
+ 
+
+15:10:28 Build Finished (took 197ms)
+

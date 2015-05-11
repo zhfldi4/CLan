@@ -1,0 +1,27 @@
+/*
+ * M02-1.c
+ *
+ *  Created on: 2015. 5. 11.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+#define MUL(x, y) printf("%d * %d = %d\n", x, y, x * y)
+#define ADD(x, y) printf("%d + %d = %d\n", x, y, x + y)
+
+#define VOLUME(r) printf("%d * %d * 3.14 = %d", r, r, r * r * 3.14)
+
+int main(void) {
+
+	int x, y;
+	scanf("%d %d", &x, &y);
+	MUL(x, y);
+	ADD(x, y);
+
+	int r;
+	scanf("%d", &r);
+	VOLUME(r);
+
+	return 0;
+}

@@ -1,0 +1,15 @@
+14:11:26 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+Building file: ../M02-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-1.d" -MT"M02-1.d" -o "M02-1.o" "../M02-1.c"
+Finished building: ../M02-1.c
+ 
+Building target: Exercise
+Invoking: GCC C Linker
+gcc  -o "Exercise"  ./M02-1.o   
+Finished building target: Exercise
+ 
+
+14:11:27 Build Finished (took 222ms)
+

@@ -1,0 +1,6 @@
+15:10:14 **** Incremental Build of configuration Debug for project mod2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+15:10:14 Build Finished (took 62ms)
+
