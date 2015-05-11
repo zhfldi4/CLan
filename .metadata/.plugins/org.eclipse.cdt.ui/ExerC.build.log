@@ -1,0 +1,13 @@
+16:08:06 **** Incremental Build of configuration Debug for project ExerC ****
+make all 
+Building target: ExerC
+Invoking: GCC C Linker
+gcc  -o "ExerC"  ./src/ExerC.o   
+./src/ExerC.o: In function `main':
+/root/workspace/ExerC/Debug/../src/ExerC.c:21: undefined reference to `sin'
+/root/workspace/ExerC/Debug/../src/ExerC.c:21: undefined reference to `cos'
+collect2: ld returned 1 exit status
+make: *** [ExerC] 오류 1
+
+16:08:06 Build Finished (took 174ms)
+

@@ -1,0 +1,25 @@
+/*
+ * stack.cpp
+ *
+ *  Created on: 2015. 5. 7.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <cctype>
+#include "stack.h"
+
+using namespace std;
+
+int main() {
+
+	Stack stack;
+	char ch;
+	unsigned long po;
+
+	cout << "Press A to insert bill, Press P to process bill, \n";
+	cout << "Press Q to quit. \n";
+
+	return 0;
+}
+

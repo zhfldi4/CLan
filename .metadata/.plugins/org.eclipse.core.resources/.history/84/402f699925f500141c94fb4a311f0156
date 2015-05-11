@@ -1,0 +1,20 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	float yard;
+
+	printf("Input Yard: ");
+	scanf("%f", &yard);
+
+	return 0;
+}
+
+

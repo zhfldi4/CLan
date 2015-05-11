@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : funtemp.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+template <class Any>
+void Swap(Any &a, Any &b);
+
+int main() {
+
+
+
+	return 0;
+}

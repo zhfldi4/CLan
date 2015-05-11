@@ -1,0 +1,26 @@
+/*
+ * manipulator.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <iomanip>
+// io Manipulator Library
+
+using namespace std;
+
+int main()
+{
+	double pi = 3.141592;
+	int i = 16;
+
+	cout << pi << endl;
+	cout << setw(10) << setfill('0') << pi << endl;
+
+
+	return 0;
+}
+
+

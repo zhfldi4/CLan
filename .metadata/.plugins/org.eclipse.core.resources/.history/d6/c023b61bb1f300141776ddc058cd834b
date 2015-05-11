@@ -1,0 +1,50 @@
+/*
+ * exer.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	char ch;
+
+	cout << "Choose one to below list: " << endl;
+	cout << "c) camera   p) pianist" << endl;
+	cout << "t) tree     g) game " << endl;
+
+	cin >> ch;
+
+	while (ch != 'q') {
+		cin >> ch;
+		switch (ch) {
+		case 'c':
+			cout << "Camera is a good Cameron." << endl;
+			return 0;
+
+		case 'p':
+			cout << "Pianist is a good Piansee." << endl;
+			return 0;
+
+		case 't':
+			cout << "Tree leaf is like a star." << endl;
+			return 0;
+
+		case 'g':
+			cout << "game is harmful for child." << endl;
+			return 0;
+
+
+		default:
+			cout << "choose c, p, t, g: " ;
+			break;
+		}
+	}
+
+	return 0;
+
+}

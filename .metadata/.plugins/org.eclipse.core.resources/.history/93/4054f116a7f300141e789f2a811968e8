@@ -1,0 +1,33 @@
+/*
+ * exer.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <string>
+#include <cstring>
+
+using namespace std;
+
+int main() {
+
+	char *ch = new char;
+	int count = 0;
+	cin.getline(ch, 20);
+
+	char *token;
+
+	while (strcmp(ch, "done")) {
+		cout << ch;
+		cin.getline(ch, 20);
+		token = strtok(ch, " ");
+		count += token->size();
+	}
+
+	cout << count << " words reads" << endl;
+
+	return 0;
+
+}

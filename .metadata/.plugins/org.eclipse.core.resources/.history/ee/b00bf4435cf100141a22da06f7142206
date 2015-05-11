@@ -1,0 +1,21 @@
+/*
+ * strtype1.cpp
+ *
+ *  Created on: 2015. 5. 3.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+
+
+
+	return 0;
+}
+
+
+

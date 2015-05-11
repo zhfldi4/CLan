@@ -1,0 +1,29 @@
+/*
+ * stock00.cpp
+ *
+ *  Created on: 2015. 5. 7.
+ *      Author: root
+ */
+
+#include <iostream>
+#include "stock00.h"
+
+void Stock::acquire(const std::string co, long int n, double pr) {
+	company = co;
+
+	if (n < 0) {
+		std::cout << "stock value are not negative, ";
+		std::cout << company << " shares value set on 0" << endl;
+
+		shares = 0;
+	} else {
+		shares = n;
+		share_val = pr;
+		set_tot();
+	}
+}
+
+
+
+
+

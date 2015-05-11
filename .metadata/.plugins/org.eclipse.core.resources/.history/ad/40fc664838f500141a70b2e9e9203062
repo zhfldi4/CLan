@@ -1,0 +1,24 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+const int SIZE = 6;
+
+int main(void) {
+
+	float weight[SIZE];
+
+	int i;
+	for (i = 0; i < SIZE; i++) {
+		scanf("%f", &weight[i]);
+	}
+
+	return 0;
+}
+
+

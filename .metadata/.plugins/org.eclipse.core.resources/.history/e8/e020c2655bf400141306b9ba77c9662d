@@ -1,0 +1,17 @@
+/*
+ * namesp.h
+ *
+ *  Created on: 2015. 5. 7.
+ *      Author: root
+ */
+#include <string>
+#ifndef NAMESP_H_
+#define NAMESP_H_
+
+namespace pers {
+struct Person {
+
+};
+}
+
+#endif /* NAMESP_H_ */

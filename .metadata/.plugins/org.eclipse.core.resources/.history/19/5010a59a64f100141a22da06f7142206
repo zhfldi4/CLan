@@ -1,0 +1,23 @@
+/*
+ * exer.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	char firstName[20], lastName[10];
+	char score;
+	int age;
+
+	cout << "Input First Name: ";
+	cin.getline(firstName, 20);
+
+	return 0;
+
+}

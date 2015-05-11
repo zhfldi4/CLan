@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : ExerC.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int gogodan;
+
+	printf("gogodan combo: ");
+	scanf("%d", &gogodan);
+
+	printf("%d * 1 = %d\n", gogodan, gogodan * 1);
+	printf("%d * 2 = %d\n", gogodan, gogodan * 2);
+	printf("%d * 3 = %d\n", gogodan, gogodan * 3);
+	printf("%d * 4 = %d\n", gogodan, gogodan * 4);
+	printf("%d * 5 = %d\n", gogodan, gogodan * 5);
+	printf("%d * 6 = %d\n", gogodan, gogodan * 6);
+	printf("%d * 7 = %d\n", gogodan, gogodan * 7);
+	printf("%d * 8 = %d\n", gogodan, gogodan * 8);
+	printf("%d * 9 = %d\n", gogodan, gogodan * 9);
+
+
+	return 0;
+}

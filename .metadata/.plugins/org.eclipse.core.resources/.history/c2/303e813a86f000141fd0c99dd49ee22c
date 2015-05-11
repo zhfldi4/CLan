@@ -1,0 +1,33 @@
+/*
+ * student.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+
+using namespace std;
+
+class Student
+{
+public:
+	char name[20];
+	int kor, math, eng;
+	float tot, avg;
+
+public:
+	void print()
+	{
+
+	}
+
+};
+
+int main()
+{
+
+	return 0;
+}
+
+

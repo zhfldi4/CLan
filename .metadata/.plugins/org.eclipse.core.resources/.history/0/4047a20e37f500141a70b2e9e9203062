@@ -1,0 +1,20 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+const int SIZE = 10;
+
+int main(void) {
+
+	char c;
+	char arr[SIZE];
+
+	return 0;
+}
+
+

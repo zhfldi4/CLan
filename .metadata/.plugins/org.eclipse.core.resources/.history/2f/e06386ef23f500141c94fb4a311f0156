@@ -1,0 +1,22 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	float x = 1.234;
+	float y = 10.3459;
+
+	printf("x = %7.4f\n", x);
+	printf("y = %7.4f\n", y);
+
+
+	return 0;
+}
+
+

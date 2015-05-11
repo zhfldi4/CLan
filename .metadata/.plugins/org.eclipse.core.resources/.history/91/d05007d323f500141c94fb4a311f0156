@@ -1,0 +1,22 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int radius = 5;
+	float pie = 3.14;
+
+	printf("circle radius = %d * 2 * %f = %f\n", radius, pie, 2 * radius * pie);
+	printf("circle Box = %d * %d * %f = %f\n", radius, radius, pie, radius * radius * pie);
+
+
+	return 0;
+}
+
+

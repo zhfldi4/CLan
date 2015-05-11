@@ -1,0 +1,34 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+const int SIZE = 6;
+
+int main(void) {
+
+	float weight[SIZE];
+
+	int i;
+	for (i = 0; i < SIZE; i++) {
+		scanf("%f", &weight[i]);
+	}
+
+	float sum = 0.0, avg;
+
+	for (i = 0; i < SIZE; i++) {
+		sum += weight[i];
+	}
+
+	avg = sum / SIZE;
+
+	printf("%.1f", avg);
+
+	return 0;
+}
+
+

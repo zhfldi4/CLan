@@ -1,0 +1,25 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	printf("char: %d", sizeof(char));
+	printf("int: %d", sizeof(int));
+	printf("short: %d", sizeof(short));
+	printf("long: %d", sizeof(long));
+	printf("float: %d", sizeof(float));
+	printf("double: %d", sizeof(double));
+	puts("");
+	printf("unsigned char: %d", sizeof(unsigned char));
+	printf("unsigned short: %d", sizeof(unsigned short));
+	printf("unsigned long: %d", sizeof(unsigned long));
+	printf("long long: %d", sizeof(long long));
+
+	return 0;
+}

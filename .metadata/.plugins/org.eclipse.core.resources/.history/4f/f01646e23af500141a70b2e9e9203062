@@ -1,0 +1,19 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int tne1(int n);
+
+int main(void) {
+
+	return 0;
+}
+
+int tne1(int n) {
+
+}

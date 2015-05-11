@@ -1,0 +1,19 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int a;
+	int *p = &a;
+
+	scanf("%d", &a);
+	printf("a = %d, *p = %p", a, *p);
+
+	return 0;
+}

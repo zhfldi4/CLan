@@ -1,0 +1,15 @@
+15:33:20 **** Incremental Build of configuration Debug for project enumura ****
+make all 
+Building file: ../enumura.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"enumura.d" -MT"enumura.d" -o "enumura.o" "../enumura.cpp"
+Finished building: ../enumura.cpp
+ 
+Building target: enumura
+Invoking: GCC C++ Linker
+g++  -o "enumura"  ./enumura.o   
+Finished building target: enumura
+ 
+
+15:33:20 Build Finished (took 331ms)
+

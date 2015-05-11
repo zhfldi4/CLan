@@ -1,0 +1,15 @@
+11:51:17 **** Incremental Build of configuration Debug for project Manipulator ****
+make all 
+Building file: ../manipulator.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"manipulator.d" -MT"manipulator.d" -o "manipulator.o" "../manipulator.cpp"
+Finished building: ../manipulator.cpp
+ 
+Building target: Manipulator
+Invoking: GCC C++ Linker
+g++  -o "Manipulator"  ./manipulator.o   
+Finished building target: Manipulator
+ 
+
+11:51:18 Build Finished (took 327ms)
+

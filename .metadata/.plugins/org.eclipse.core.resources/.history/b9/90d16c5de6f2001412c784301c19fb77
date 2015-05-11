@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : ExerC.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int maxDay, day;
+
+	printf("Input maximum day: ");
+	scanf("%d", &maxDay);
+	printf("Input First day(ex: 0:Sun, 1:Mon,...): ");
+	scanf("%d", &day);
+
+	return 0;
+}

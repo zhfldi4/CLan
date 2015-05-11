@@ -1,0 +1,85 @@
+/*
+ ============================================================================
+ Name        : ExerC.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define N 4
+
+long long power(int n, int m);
+int is_prime(int n);
+void factorize(int num);
+void grade_sort(int gr[], int size);
+
+int main(void) {
+
+
+
+	return 0;
+}
+
+long long power(int n, int m) {
+	int i;
+
+	long long pow = 1;
+
+	for (i = 0; i < m; i++)
+		pow *= n;
+
+	return pow;
+}
+
+int is_prime(int n) {
+
+	int i;
+
+	for (i = 2; i < n; i++) {
+		if ((n % i) == 0)
+			return 0;
+	}
+
+	return 1;
+}
+
+void factorize(int num) {
+
+	int i = 2;
+
+	printf("%d = ", num);
+
+	while (num > 1) {
+		if ((num % i) == 0) {
+			printf("%d", i);
+			num = num / i;
+
+			if (num != 1)
+				printf(" * ");
+		} else {
+			i++;
+		}
+	}
+}
+
+void grade_sort(int gr[], int size) {
+	int i, j, tmp;
+	int flag = 0;
+
+	for (i = 0; i < size - 1; i++) {
+		for (j = size; j > i; j--)
+			if (gr[j - 1] > gr[j]) {
+				tmp = gr[j - 1];
+				gr[j - 1] = gr[j];
+				gr[j] = tmp;
+				flag = 1;
+			}
+		if (flag == 0)
+			return 0;
+	}
+}

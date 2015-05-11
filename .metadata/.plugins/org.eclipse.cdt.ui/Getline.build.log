@@ -1,0 +1,15 @@
+11:53:22 **** Incremental Build of configuration Debug for project Getline ****
+make all 
+Building file: ../getline.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"getline.d" -MT"getline.d" -o "getline.o" "../getline.cpp"
+Finished building: ../getline.cpp
+ 
+Building target: Getline
+Invoking: GCC C++ Linker
+g++  -o "Getline"  ./getline.o   
+Finished building target: Getline
+ 
+
+11:53:23 Build Finished (took 324ms)
+

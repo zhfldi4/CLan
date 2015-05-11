@@ -1,0 +1,15 @@
+15:27:58 **** Incremental Build of configuration Debug for project structur ****
+make all 
+Building file: ../structur.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"structur.d" -MT"structur.d" -o "structur.o" "../structur.cpp"
+Finished building: ../structur.cpp
+ 
+Building target: structur
+Invoking: GCC C++ Linker
+g++  -o "structur"  ./structur.o   
+Finished building target: structur
+ 
+
+15:28:18 Build Finished (took 19s.258ms)
+

@@ -1,0 +1,20 @@
+/*
+ * HelloC.c
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int a = 3;
+	int b = 5;
+
+	int sum = a + b;
+
+	return 0;
+}
+
+

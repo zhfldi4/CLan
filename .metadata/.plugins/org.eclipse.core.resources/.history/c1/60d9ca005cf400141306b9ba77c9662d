@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : namesp.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "namesp.h"
+
+using namespace std;
+
+namespace pers {
+
+void getPerson(Person & rp) {
+	cout << "Input First Name: ";
+	cin >> rp.fname;
+	cout << "Input Last Name: ";
+	cin >> rp.lname;
+}
+
+void showPerson(const Person &rp) {
+	cout << rp.lname << ", " << rp.fname << endl;
+}
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

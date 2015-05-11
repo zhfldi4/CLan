@@ -1,0 +1,28 @@
+/*
+ * exer.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct CandyBar {
+	string name;
+	double weight;
+	int cal;
+};
+
+int main() {
+
+	CandyBar sneak = {"Mocha Munch", 2.3, 350};
+
+	cout << "Name: " << sneak.name << endl;
+	cout << "Weight: " << sneak.weight << endl;
+	cout << "cal: " << sneak.cal << endl;
+
+	return 0;
+
+}

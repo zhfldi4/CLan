@@ -1,0 +1,47 @@
+/*
+ * exer.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main() {
+
+	char firstName[20], lastName[10];
+	char score;
+	int age;
+
+	cout << "Input First Name: ";
+	cin.getline(firstName, 20);
+	cout << "Input Last Name: ";
+	cin >> lastName;
+	cout << "Want to score: ";
+	cin >> score;
+	cout << "Input your age: ";
+	cin >> age;
+
+	char fullName[30];
+	strcpy(fullName, lastName);
+
+	strcat(fullName, lastName);
+
+	cout << "Name: " << fullName << endl;
+
+	if (score == 'A' || score == 'a')
+		score = 'B';
+	else if (score == 'B' || score == 'b')
+		score = 'C';
+
+	cout << "Score: " << score << endl;
+
+	cout << "Age: " << age << endl;
+
+
+	return 0;
+
+}

@@ -1,0 +1,23 @@
+/*
+ * getline.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	string name;
+
+	cout << "Input your name: " ;
+	g
+
+	return 0;
+}
+
+

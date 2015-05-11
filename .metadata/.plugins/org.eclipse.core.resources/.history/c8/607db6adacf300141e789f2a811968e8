@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : sumafile.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+
+const int SIZE = 60;
+
+using namespace std;
+
+int main() {
+
+	char filename[SIZE];
+	ifstream inFile;						// Object for processing file input
+	cout << "Input data file's name: ";
+	cin.getline(filename, SIZE);
+	inFile.open(filename);
+
+	// fail to open file
+	if (!inFile.is_open()) {
+
+	}
+
+	return 0;
+}

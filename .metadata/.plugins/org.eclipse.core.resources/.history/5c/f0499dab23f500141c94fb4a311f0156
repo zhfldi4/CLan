@@ -1,0 +1,33 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int kor, math, eng;
+	int sum = 0;
+	int avg;
+
+	kor = 90;
+	math = 80;
+	eng = 100;
+
+	sum = kor + math + eng;
+	avg = sum / 3;
+
+	printf("Kor: %d\n", kor);
+	printf("Math: %d\n", math);
+	printf("Eng: %d\n", eng);
+	printf("Sum: %d\n", sum);
+	printf("Avg: %d\n", avg);
+
+
+	return 0;
+}
+
+

@@ -1,0 +1,38 @@
+/*
+ * exer.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+
+using namespace std;
+
+const double AINC = 0.1;
+const double BINC = 0.05;
+
+int main() {
+
+	int aMoney, bMoney;
+	int aInc, bInc;
+
+	aMoney = bMoney = 100000;
+	aInc = 0;
+	bInc = bMoney;
+
+	int aTotMoney = 0, bTotMoney = 0;
+
+	for (int i = 1; i < 6; i++) {
+		aInc = (int)(AINC * aMoney);
+		bInc = (int)(BINC * bMoney);
+
+		cout << i << "years increment :" <<endl;
+		cout << "\t A: " << aInc << endl;
+		cout << "\t B: " << bInc << endl;
+
+	}
+
+	return 0;
+
+}

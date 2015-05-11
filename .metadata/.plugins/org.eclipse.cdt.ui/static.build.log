@@ -1,0 +1,6 @@
+10:45:55 **** Incremental Build of configuration Debug for project static ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+10:45:55 Build Finished (took 84ms)
+

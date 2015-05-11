@@ -1,0 +1,36 @@
+/*
+ * usenmsp.cpp
+ *
+ *  Created on: 2015. 5. 7.
+ *      Author: root
+ */
+
+#include <iostream>
+#include "namesp.h"
+
+using namespace std;
+
+void other(void);
+void another(void);
+
+int main(void) {
+
+	using debts::Debt;
+	using debts::showDebt;
+
+	Debt golf = { {"Menny", "Parquio"}, 120.0 };
+	showDebt(golf);
+	other();
+	another();
+
+	return 0;
+}
+
+
+void other(void) {
+
+}
+
+void another(void){
+
+}

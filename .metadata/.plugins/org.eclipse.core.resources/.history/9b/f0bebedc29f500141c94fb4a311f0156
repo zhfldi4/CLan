@@ -1,0 +1,27 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int num, sum = 0;
+	scanf("%d", &num);
+
+	int i;
+	for (i = 1; i <= num; i++) {
+		if ((i % 5) == 0)
+			sum += i;
+	}
+
+	printf("%d", sum);
+
+
+	return 0;
+}
+
+

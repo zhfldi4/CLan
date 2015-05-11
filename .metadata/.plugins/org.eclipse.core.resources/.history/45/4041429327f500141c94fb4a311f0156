@@ -1,0 +1,26 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+#define MIN 0
+#define MAX 100
+
+int main(void) {
+
+	int num;
+
+	scanf("%d", &num);
+
+	while (num < MIN || num > MAX) {
+
+	}
+
+	return 0;
+}
+
+

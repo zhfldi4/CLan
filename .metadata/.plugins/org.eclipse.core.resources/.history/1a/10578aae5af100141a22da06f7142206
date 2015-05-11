@@ -1,0 +1,33 @@
+/*
+ * strings.cpp
+ *
+ *  Created on: 2015. 5. 3.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main() {
+
+	const int SIZE = 15;
+	char name1[SIZE];					// Empty string
+	char name2[SIZE] = "C++owboy";	// constant string initialized string
+
+	cout << " Hello~ My name is " << name2;
+	cout << "! What's your name ?" << endl;
+
+	cin >> name1;
+
+	cout << "Oh, Mr." << name1 << "! Your name is ";
+	cout << strlen(name1) << " characters" << endl;
+
+	cout << "but, Size " << sizeof(name1) << "Save your name." << endl;
+
+
+	return 0;
+}
+
+

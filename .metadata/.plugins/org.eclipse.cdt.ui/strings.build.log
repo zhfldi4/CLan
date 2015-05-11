@@ -1,0 +1,15 @@
+15:11:42 **** Incremental Build of configuration Debug for project strings ****
+make all 
+Building file: ../strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"strings.d" -MT"strings.d" -o "strings.o" "../strings.cpp"
+Finished building: ../strings.cpp
+ 
+Building target: strings
+Invoking: GCC C++ Linker
+g++  -o "strings"  ./strings.o   
+Finished building target: strings
+ 
+
+15:11:43 Build Finished (took 346ms)
+

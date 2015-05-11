@@ -1,0 +1,22 @@
+//============================================================================
+// Name        : strgfun.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <array>
+#include <string>
+
+const int Seasons = 4;
+ocnst std::array<std::string, Seasons> Sname = {"Spring", "Summer", "Fall", "Winter"};
+
+using namespace std;
+
+int main() {
+
+	return 0;
+}
+

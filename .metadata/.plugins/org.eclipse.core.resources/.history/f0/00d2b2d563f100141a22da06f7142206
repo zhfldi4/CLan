@@ -1,0 +1,30 @@
+//============================================================================
+// Name        : mixtypes.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+struct antarctica_years_end {
+	int year;
+};
+
+int main() {
+
+	antarctica_years_end s1, s2, s3;
+	s1.year = 2010;
+	antarctica_years_end * pa = &s2;
+	pa->year = 2011;
+	antarctica_years_end trio[3];
+	trio[0].year = 2012;
+	cout << trio->year << endl;
+
+	const antarctica_years_end * arp[3] = {&s1, &s2, &s3};
+
+
+	return 0;
+}

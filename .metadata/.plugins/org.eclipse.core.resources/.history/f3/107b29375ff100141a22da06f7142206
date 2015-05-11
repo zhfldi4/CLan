@@ -1,0 +1,26 @@
+/*
+ * pointer.cpp
+ *
+ *  Created on: 2015. 5. 3.
+ *      Author: root
+ */
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	int updates = 6;
+	int* p_updates = &updates;
+
+	cout << "Value: updates = " << updates;
+	cout << ", *p+updates = " << *p_updates << endl;
+
+	cout << "Address: &updates = " << &updates;
+	cout << ", p_updates = " << p_updates << endl;
+
+	return 0;
+}
+
+
+

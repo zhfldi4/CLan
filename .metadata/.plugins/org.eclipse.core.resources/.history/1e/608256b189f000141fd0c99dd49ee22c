@@ -1,0 +1,59 @@
+/*
+ * point.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+
+#include <iostream>
+
+using namespace std;
+
+class Point
+{
+private:
+	int m_x, m_y;
+	enum {MIN_X = 0, MAX_X = 100, MIN_Y = 0, MAX_Y = 100};
+
+public:
+	void setX(int x)
+	{
+		if (MAX_X < x)
+			x = MAX_X;
+		else if (x < MIN_X)
+			x = MIN_X;
+		m_x = x;
+	}
+
+	void setY(int y)
+	{
+		m_y = y;
+	}
+
+	int getX()
+	{
+		return m_x;
+	}
+
+	int getY()
+	{
+		return m_y;
+	}
+
+	void print()
+	{
+		cout << "(x, y) = (" << m_x << ", " << m_y << ")" << endl;
+	}
+};
+
+int main()
+{
+	Point pt;
+	pt.setX(100);
+	pt.setY(50);
+	pt.print();
+
+	return 0;
+}
+

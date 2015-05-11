@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : ExerC.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define PI 3.14159
+typedef double dbl;
+typedef dbl (*PFDD)(dbl);
+
+int main(void) {
+
+	PFDD f = sin, g = cos;
+
+	printf("f(%f) = %f\n", PI, f(PI));
+	printf("g(%f) = %f\n", PI, g(PI));
+
+
+	return 0;
+}

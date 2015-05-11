@@ -1,0 +1,52 @@
+//============================================================================
+// Name        : sumafile.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+
+const int SIZE = 60;
+
+using namespace std;
+
+int main() {
+
+	char filename[SIZE];
+	ifstream inFile;						// Object for processing file input
+	cout << "Input data file's name: ";
+	cin.getline(filename, SIZE);
+	inFile.open(filename);
+
+	// fail to open file
+	if (!inFile.is_open()) {
+		cout << filename << "isn't open. " << endl;
+		cout << "Program will be downed. " << endl;
+		exit(EXIT_FAILURE);
+	}
+
+	double value;
+	double sum = 0.0
+			;
+	int count = 0;
+
+	inFile >> value;						// Getting first value
+
+	// Until Input is safe and not EOF
+	while (inFile.good()) {
+		++count;
+		sum += value;
+		inFile >> value;
+	}
+
+	if (inFile.eof())
+		cout << "The file is end of sentence." << endl;
+	else if (inFile.fail())
+		cout << "Input was determination by Data inconsistency" << endl;
+
+	return 0;
+}

@@ -1,0 +1,30 @@
+/*
+ * exer.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+const int SIZE = 10;
+
+int main() {
+
+	double saveMoney[SIZE];
+
+	for (int i = 0; i < SIZE; i++) {
+		cout << "Input #" << i + 1 << "Money: ";
+		cin >> saveMoney[i];
+
+		if (isalpha(saveMoney[i]))
+			exit(EXIT_FAILURE);
+		cout << endl;
+	}
+
+	return 0;
+
+}

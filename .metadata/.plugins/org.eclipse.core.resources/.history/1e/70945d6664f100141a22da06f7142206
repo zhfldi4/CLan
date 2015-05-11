@@ -1,0 +1,22 @@
+/*
+ * exer.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	int ceti;
+
+	cout << "Input Centimeter:_____\b\b\b\b\b ";
+	cin >> ceti;
+
+
+	return 0;
+
+}

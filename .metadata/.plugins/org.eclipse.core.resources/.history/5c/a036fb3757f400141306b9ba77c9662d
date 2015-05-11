@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : twoswap.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+template <typename T>
+void Swap(T &a, T &b);
+
+struct job {
+	char name[40];
+	double salary;
+	int floor;
+};
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

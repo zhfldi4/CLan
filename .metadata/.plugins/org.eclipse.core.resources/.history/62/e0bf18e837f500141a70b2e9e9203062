@@ -1,0 +1,24 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int arr[10];
+	int oddArr[5];
+	int evenArr[5];
+
+	int i;
+	for (i = 0; i < 10; i++) {
+		scanf("%d", arr[i]);
+	}
+
+	return 0;
+}
+
+

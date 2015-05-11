@@ -1,0 +1,26 @@
+//============================================================================
+// Name        : use_new.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int nights = 1001;
+	int* pt = new int;
+
+	*pt = 1001;
+
+	cout << "nights's value is " << nights;
+	cout << ", nights's address is " << &nights << endl;;
+
+	cout << "type int ";
+	cout << "value is " << *pt << ", address is " << pt << endl;
+
+	return 0;
+}

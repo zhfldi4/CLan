@@ -1,0 +1,34 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int oddNum = 0;
+	int evenNum = 0;
+
+	int num;
+
+	scanf("%d", &num);
+
+	while (num != 0) {
+		if ((num % 2) == 0)
+			evenNum++;
+		else
+			oddNum++;
+
+		scanf("%d", &num);
+	}
+
+	printf("Odd Number: %d\n", oddNum);
+	printf("Even Number: %d\n", evenNum);
+
+	return 0;
+}
+
+

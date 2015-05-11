@@ -1,0 +1,6 @@
+10:24:31 **** Incremental Build of configuration Debug for project sumafile ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+10:24:32 Build Finished (took 353ms)
+

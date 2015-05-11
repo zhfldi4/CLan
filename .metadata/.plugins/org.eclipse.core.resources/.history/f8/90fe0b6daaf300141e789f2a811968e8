@@ -1,0 +1,37 @@
+//============================================================================
+// Name        : outfile.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main() {
+
+	char automobile[50];
+	int year;
+	double a_price, d_price;
+
+	ofstream outFile;
+	outFile.open("carinfo.txt");
+
+	cout << "Input car maker and car model";
+	cin.getline(automobile, 50);
+	cout << "year: ";
+	cin >> year;
+	cout << "price: ";
+	cin >> a_price;
+	d_price = 0.913 * a_price;
+
+	cout << fixed;
+	cout.precision(2);
+	cout.setf(ios_base::showpoint);
+
+
+	return 0;
+}

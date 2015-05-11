@@ -1,0 +1,78 @@
+/*
+ ============================================================================
+ Name        : ExerC.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+long long power(int n, int m);
+int is_prime(int n);
+void factorize(int num);
+
+int main(void) {
+
+	int kg, height;
+	float BMI;
+
+	printf("Input your weight: ");
+	scanf("%d", &kg);
+	printf("Input your tall: ");
+	scanf("%d", &height);
+
+	BMI = calc_BMI(kg, height);
+
+	printf("Your BMI is %f\n", BMI);
+
+
+	return 0;
+}
+
+long long power(int n, int m) {
+	int i;
+
+	long long pow = 1;
+
+	for (i = 0; i < m; i++)
+		pow *= n;
+
+	return pow;
+}
+
+int is_prime(int n) {
+
+	int i;
+
+	for (i = 2; i < n; i++) {
+		if ((n % i) == 0)
+			return 0;
+	}
+
+	return 1;
+}
+
+void factorize(int num) {
+
+	int i = 2;
+
+	printf("%d = ", num);
+
+	while (num > 1) {
+		if ((num % i) == 0) {
+			printf("%d", i);
+			num = num / i;
+
+			if (num != 1)
+				printf(" * ");
+		} else {
+			i++;
+		}
+	}
+}
+
+

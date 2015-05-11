@@ -1,0 +1,24 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int year;
+
+	printf("Input year: " );
+	scanf("%d", &year);
+
+	if ((year % 400) == 0) {
+		printf("leap year");
+	}
+
+	return 0;
+}
+
+

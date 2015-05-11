@@ -1,0 +1,24 @@
+/*
+ * substring.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	// file name
+	string file;
+
+	cout << "input file name : ";
+
+
+	return 0;
+}
+
+

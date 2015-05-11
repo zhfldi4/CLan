@@ -1,0 +1,33 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int num;
+	int oddSum = 0;
+	int evenSum = 0;
+
+	int i;
+	for (i = 0; i < 10; i++) {
+		scanf("%d", &num);
+		if ((i % 2) == 0)
+			evenSum += num;
+		else
+			oddSum += num;
+	}
+
+	printf("Odd Sum: %d\n", oddSum);
+	printf("Even Sum: %d", evenSum);
+
+
+
+	return 0;
+}
+
+

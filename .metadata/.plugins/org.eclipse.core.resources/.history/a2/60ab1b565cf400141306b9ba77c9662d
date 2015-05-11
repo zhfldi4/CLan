@@ -1,0 +1,30 @@
+/*
+ * usenmsp.cpp
+ *
+ *  Created on: 2015. 5. 7.
+ *      Author: root
+ */
+
+#include <iostream>
+#include "namesp.h"
+
+using namespace std;
+
+void other(void);
+void another(void);
+
+int main(void) {
+
+
+
+	return 0;
+}
+
+
+void other(void) {
+
+}
+
+void another(void){
+
+}

@@ -1,0 +1,32 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+#define THIRD 3
+#define FIFTH 5
+
+int main(void) {
+
+	int num;
+	int cnt = 0;
+
+	scanf("%d", &num);
+
+	while (num != 0) {
+		if ((num % THIRD) != 0 && (num % FIFTH) != 0)
+			cnt++;
+
+		scanf("%d", &num);
+	}
+
+	printf("%d", cnt);
+
+	return 0;
+}
+
+

@@ -1,0 +1,22 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	float one;
+	double two;
+
+	printf("Input two numbers: ");
+	scanf("%f", &one);
+
+
+	return 0;
+}
+
+

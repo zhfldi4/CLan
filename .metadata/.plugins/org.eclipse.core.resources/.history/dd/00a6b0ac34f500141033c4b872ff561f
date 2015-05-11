@@ -1,0 +1,29 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int num;
+
+	scanf("%d", &num);
+
+	int i, j;
+
+	for (i = 0; i < num; i++) {
+		for (j = 0; j < num; j++) {
+			printf("(%d, %d) ", i + 1, j + 1);
+		}
+		printf("\n");
+	}
+
+
+	return 0;
+}
+
+

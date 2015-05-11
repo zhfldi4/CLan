@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : ptrstr.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main() {
+
+	char animal[20] = "bear";		// bear in animal
+	const char * bird = "wren";		// string address in bird
+	char * ps;							// Not initialized
+
+	cout << animal << " and ";
+	cout << bird << endl;
+	// cout << ps << endl; 			// This command is display trash value or Dumping
+
+	cout << "Input species of animal: ";
+	cin >> animal;
+
+	ps = animal;						// ps is indicate string
+	cout << ps << "s!" << endl;
+	cout << "before strcpy(): " <<endl;
+	cout << (int *) animal << ": " << animal << endl;
+	cout << (int *) ps << ": " << ps << endl;
+
+
+	return 0;
+}

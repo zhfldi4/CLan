@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : ExerC.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int num = 1234;
+
+	printf("1234567890123456789\n");
+	printf("===%06d===\n", num);
+	return 0;
+}

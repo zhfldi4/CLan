@@ -1,0 +1,30 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int scanInt();
+int[] sortArr(int [] a, int n);
+
+
+int main(void) {
+
+
+	return 0;
+}
+
+int scanInt() {
+	int n;
+
+	scanf("%d", &n);
+
+	return n;
+}
+
+int [] sortArr(int [] a, int n) {
+
+}

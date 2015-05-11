@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : ExerC.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	unsigned char a, b, d;
+	signed char c;
+
+	a = 100;
+	b = 200;
+	c = -50;
+	d = a + b + c;
+
+	printf("a = %d\nb = %d\nc = %d\nd = %d\n");
+
+	return 0;
+}

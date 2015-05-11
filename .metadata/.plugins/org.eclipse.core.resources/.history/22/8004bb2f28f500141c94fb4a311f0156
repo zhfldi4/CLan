@@ -1,0 +1,31 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+#define MIN 0
+#define MAX 100
+
+int main(void) {
+
+	int num, cnt = 0;
+	int sum = 0;
+	float avg;
+
+	scanf("%d", &num);
+
+	while (MIN < num || num < MAX) {
+		sum += num;
+		cnt++;
+	}
+
+	avg =
+
+	return 0;
+}
+
+

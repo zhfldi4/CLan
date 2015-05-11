@@ -1,0 +1,10 @@
+15:06:23 **** Build of configuration Debug for project strgfun ****
+make all 
+Building file: ../src/strgfun.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -O0 -g3 -Wall -std=c++11 -MMD -MP -MF"src/strgfun.d" -MT"src/strgfun.d" -o "src/strgfun.o" "../src/strgfun.cpp"
+cc1plus: error: unrecognized command line option ‘-std=c++11’
+make: *** [src/strgfun.o] 오류 1
+
+15:06:23 Build Finished (took 184ms)
+

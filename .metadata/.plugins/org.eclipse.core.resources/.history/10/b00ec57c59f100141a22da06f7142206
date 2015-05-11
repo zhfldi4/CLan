@@ -1,0 +1,27 @@
+/*
+ * arrayone.cpp
+ *
+ *  Created on: 2015. 5. 3.
+ *      Author: root
+ */
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	int yams[3];
+
+	yams[0] = 7;
+	yams[1] = 8;
+	yams[2] = 6;
+
+	int yamsCost[3] = {200, 300, 50};
+
+	yamsSum = yams[0] + yams[1] + yams[2];
+	cout << "Yam's Sum = " <<
+
+	return 0;
+}
+

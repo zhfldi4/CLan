@@ -1,0 +1,30 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+const int SIZE = 10;
+
+int main(void) {
+
+	char c;
+	char arr[SIZE];
+
+	int i = 0;
+	while (i < SIZE) {
+		scanf("%c", &arr[i]);
+		i++;
+	}
+
+	for (i = SIZE; i > 0; i--) {
+		printf("%c ", arr[i]);
+	}
+
+	return 0;
+}
+
+

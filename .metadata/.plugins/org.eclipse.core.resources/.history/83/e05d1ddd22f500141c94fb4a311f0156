@@ -1,0 +1,22 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	printf("TTTTTTTTTTTTT\n");
+	printf("TTTTTTTTTTTTT\n");
+	printf("        TT\n");
+	printf("        TT\n");
+	printf("        TT\n");
+
+
+	return 0;
+}
+
+

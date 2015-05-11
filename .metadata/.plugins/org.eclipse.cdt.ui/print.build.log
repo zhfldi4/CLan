@@ -1,0 +1,15 @@
+11:22:00 **** Incremental Build of configuration Debug for project print ****
+make all 
+Building file: ../print.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"print.d" -MT"print.d" -o "print.o" "../print.c"
+Finished building: ../print.c
+ 
+Building target: print
+Invoking: GCC C Linker
+gcc  -o "print"  ./print.o   
+Finished building target: print
+ 
+
+11:22:15 Build Finished (took 14s.765ms)
+

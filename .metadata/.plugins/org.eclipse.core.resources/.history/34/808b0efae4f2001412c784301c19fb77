@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : ExerC.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int a, b, x;
+	a = b = 0;
+
+	x = 0 && (a = b = 777);
+
+	printf("%d %d %d\n", a, b, x);
+
+	x = 777 || (a = ++b);
+	printf("%d %d %d", a, b, x);
+
+
+	return 0;
+}

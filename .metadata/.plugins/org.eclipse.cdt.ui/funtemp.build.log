@@ -1,0 +1,14 @@
+10:13:50 **** Incremental Build of configuration Debug for project funtemp ****
+make all 
+Building file: ../src/funtemp.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funtemp.d" -MT"src/funtemp.d" -o "src/funtemp.o" "../src/funtemp.cpp"
+../src/funtemp.cpp: In function ‘int main()’:
+../src/funtemp.cpp:29:11: error: call of overloaded ‘swap(int&, int&)’ is ambiguous
+../src/funtemp.cpp:29:11: note: candidates are:
+../src/funtemp.cpp:16:6: note: void swap(T&, T&) [with T = int]
+/usr/include/c++/4.6/bits/move.h:122:5: note: void std::swap(_Tp&, _Tp&) [with _Tp = int]
+make: *** [src/funtemp.o] 오류 1
+
+10:13:50 Build Finished (took 229ms)
+

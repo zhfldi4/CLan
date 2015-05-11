@@ -1,0 +1,31 @@
+/*
+ * noinit.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+
+using namespace std;
+int globalValue;
+
+void function ();
+
+int main()
+{
+	int localValue;
+	static int staticValue;
+
+	cout << "No init Global Variable : " << globalValue << endl;
+	cout << "No init Local Variable : " << localValue << endl;
+	cout << "No init Static Variable : " << staticValue << endl;
+
+	return 0;
+}
+
+void function()
+{
+	int localValue2;
+	cout << "Noinitialization Variable = " << localValue2 << endl;
+}

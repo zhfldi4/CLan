@@ -1,0 +1,19 @@
+/*
+ * noinit.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+	return 0;
+}
+
+

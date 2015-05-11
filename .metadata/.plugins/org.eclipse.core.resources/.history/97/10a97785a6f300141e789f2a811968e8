@@ -1,0 +1,28 @@
+/*
+ * exer.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <string>
+#include <cstring>
+
+using namespace std;
+
+int main() {
+
+	char ch;
+	int count = 0;
+
+	cin.get(ch);
+
+	while (ch != 'done') {
+		cout << ch;
+		cin.get(ch);
+	}
+
+	return 0;
+
+}

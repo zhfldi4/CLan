@@ -1,0 +1,24 @@
+/*
+ * exer.cpp
+ *
+ *  Created on: 2015. 5. 2.
+ *      Author: root
+ */
+
+#include <iostream>
+#include <string>
+#include <cstring>
+
+using namespace std;
+
+int main() {
+
+	char word[255];
+	cin.getline(word, 255);
+
+	char * token = strtok(word, " ");
+	cout << token;
+
+	return 0;
+
+}

@@ -1,0 +1,23 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	float cc = 21.6;
+	float hh = 110.3;
+
+	printf("Celcius %f is calculate in Fahrenheit %.1f.\n", cc, (cc * 1.8) + 32);
+	printf("Fahrenheit %f is calculate in Celcius %.1f.\n", hh, (hh-32) * 0.55);
+
+
+
+	return 0;
+}
+
+

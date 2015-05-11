@@ -1,0 +1,23 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int x, y;
+	scanf("%d %d", &x, &y);
+
+	int i;
+	for (i = (x > y ? y : x); i < (x > y ? x : y); i++ ) {
+
+	}
+
+	return 0;
+}
+
+

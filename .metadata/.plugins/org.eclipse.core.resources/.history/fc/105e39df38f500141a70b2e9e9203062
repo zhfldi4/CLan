@@ -1,0 +1,32 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+const int SIZE = 6;
+
+int main(void) {
+
+	char character[6] = { 'H', 'A', 'N', 'C', 'O', 'M' };
+
+	char c;
+
+	scanf("%c", &c);
+	int i;
+
+	while (1) {
+		for (i = 0; i < 6; i++) {
+			if (c == character[i]) {
+				printf("%d\n", i);
+				break;
+			}
+		}
+	}
+
+	return 0;
+}
+

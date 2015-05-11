@@ -1,0 +1,28 @@
+//============================================================================
+// Name        : strgfun.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <array>
+#include <string>
+
+using namespace std;
+
+const int Seasons = 4;
+const std::array<std::string, Seasons> Sname = {"Spring", "Summer", "Fall", "Winter"};
+
+void fill(std::array<double, Seasons> *pa);
+
+int main() {
+
+	return 0;
+}
+
+void fill(std::array<double, Seasons> *pa) {
+
+}
+

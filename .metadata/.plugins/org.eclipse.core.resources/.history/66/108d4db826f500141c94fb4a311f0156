@@ -1,0 +1,24 @@
+/*
+ * print.c
+ *
+ *  Created on: 2015. 5. 8.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	char a = 'A';
+
+	int i;
+	for (i = 65; i < 81; i++) {
+		printf("%c", (char)i);
+	}
+
+	printf("%d", (int)a);
+
+	return 0;
+}
+
+
