@@ -1,0 +1,1 @@
+macrofunc.d: ../macrofunc.c

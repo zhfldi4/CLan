@@ -1,0 +1,47 @@
+12:56:56 **** Build of configuration Debug for project Macro ****
+make all 
+Building file: ../nomacro.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nomacro.d" -MT"nomacro.d" -o "nomacro.o" "../nomacro.c"
+Finished building: ../nomacro.c
+ 
+Building file: ../usingmacro.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usingmacro.d" -MT"usingmacro.d" -o "usingmacro.o" "../usingmacro.c"
+Finished building: ../usingmacro.c
+ 
+Building target: Macro
+Invoking: GCC C Linker
+gcc  -o "Macro"  ./nomacro.o ./usingmacro.o   
+./usingmacro.o: In function `main':
+/root/workspace/CLan/Macro/Debug/../usingmacro.c:13: multiple definition of `main'
+./nomacro.o:/root/workspace/CLan/Macro/Debug/../nomacro.c:11: first defined here
+collect2: ld returned 1 exit status
+make: *** [Macro] 오류 1
+12:56:59 **** Build of configuration Debug for project macrofunc ****
+make all 
+Building file: ../macrofunc.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"macrofunc.d" -MT"macrofunc.d" -o "macrofunc.o" "../macrofunc.c"
+Finished building: ../macrofunc.c
+ 
+Building target: macrofunc
+Invoking: GCC C Linker
+gcc  -o "macrofunc"  ./macrofunc.o   
+Finished building target: macrofunc
+ 
+12:57:05 **** Incremental Build of configuration Debug for project macrofunc ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+12:57:54 **** Incremental Build of configuration Debug for project macrofunc ****
+make all 
+Building file: ../macrofunc.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"macrofunc.d" -MT"macrofunc.d" -o "macrofunc.o" "../macrofunc.c"
+Finished building: ../macrofunc.c
+ 
+Building target: macrofunc
+Invoking: GCC C Linker
+gcc  -o "macrofunc"  ./macrofunc.o   
+Finished building target: macrofunc
+ 

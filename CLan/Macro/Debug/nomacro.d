@@ -1,0 +1,1 @@
+nomacro.d: ../nomacro.c

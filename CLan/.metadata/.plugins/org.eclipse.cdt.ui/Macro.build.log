@@ -1,0 +1,23 @@
+12:56:56 **** Build of configuration Debug for project Macro ****
+make all 
+Building file: ../nomacro.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nomacro.d" -MT"nomacro.d" -o "nomacro.o" "../nomacro.c"
+Finished building: ../nomacro.c
+ 
+Building file: ../usingmacro.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usingmacro.d" -MT"usingmacro.d" -o "usingmacro.o" "../usingmacro.c"
+Finished building: ../usingmacro.c
+ 
+Building target: Macro
+Invoking: GCC C Linker
+gcc  -o "Macro"  ./nomacro.o ./usingmacro.o   
+./usingmacro.o: In function `main':
+/root/workspace/CLan/Macro/Debug/../usingmacro.c:13: multiple definition of `main'
+./nomacro.o:/root/workspace/CLan/Macro/Debug/../nomacro.c:11: first defined here
+collect2: ld returned 1 exit status
+make: *** [Macro] 오류 1
+
+12:56:58 Build Finished (took 2s.489ms)
+

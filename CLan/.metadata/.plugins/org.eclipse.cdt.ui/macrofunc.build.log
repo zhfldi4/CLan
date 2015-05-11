@@ -1,0 +1,15 @@
+12:57:54 **** Incremental Build of configuration Debug for project macrofunc ****
+make all 
+Building file: ../macrofunc.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"macrofunc.d" -MT"macrofunc.d" -o "macrofunc.o" "../macrofunc.c"
+Finished building: ../macrofunc.c
+ 
+Building target: macrofunc
+Invoking: GCC C Linker
+gcc  -o "macrofunc"  ./macrofunc.o   
+Finished building target: macrofunc
+ 
+
+12:57:54 Build Finished (took 230ms)
+

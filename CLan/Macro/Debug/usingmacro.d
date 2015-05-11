@@ -1,0 +1,1 @@
+usingmacro.d: ../usingmacro.c
