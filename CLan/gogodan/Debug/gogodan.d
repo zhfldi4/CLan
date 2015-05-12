@@ -1,0 +1,1 @@
+gogodan.d: ../gogodan.c

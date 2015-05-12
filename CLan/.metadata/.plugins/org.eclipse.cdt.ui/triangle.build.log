@@ -1,0 +1,6 @@
+13:52:36 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+13:52:36 Build Finished (took 77ms)
+

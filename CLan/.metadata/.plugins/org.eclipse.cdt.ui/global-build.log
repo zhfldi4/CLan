@@ -1288,3 +1288,90 @@ Invoking: GCC C Linker
 gcc  -o "itoa"  ./itoa.o   
 Finished building target: itoa
  
+13:42:10 **** Build of configuration Debug for project gogodan ****
+make all 
+Building file: ../gogodan.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"gogodan.d" -MT"gogodan.d" -o "gogodan.o" "../gogodan.c"
+Finished building: ../gogodan.c
+ 
+Building target: gogodan
+Invoking: GCC C Linker
+gcc  -o "gogodan"  ./gogodan.o   
+Finished building target: gogodan
+ 
+13:42:13 **** Incremental Build of configuration Debug for project gogodan ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:44:47 **** Build of configuration Debug for project triangle ****
+make all 
+Building file: ../triangle1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"triangle1.d" -MT"triangle1.d" -o "triangle1.o" "../triangle1.c"
+Finished building: ../triangle1.c
+ 
+Building target: triangle
+Invoking: GCC C Linker
+gcc  -o "triangle"  ./triangle1.o   
+Finished building target: triangle
+ 
+13:44:48 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:47:27 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:47:27 **** Build of configuration Debug for project triangle2 ****
+make all 
+Building file: ../triangle2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"triangle2.d" -MT"triangle2.d" -o "triangle2.o" "../triangle2.c"
+Finished building: ../triangle2.c
+ 
+Building target: triangle2
+Invoking: GCC C Linker
+gcc  -o "triangle2"  ./triangle2.o   
+Finished building target: triangle2
+ 
+13:47:29 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:50:28 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:50:28 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+Building file: ../triangle2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"triangle2.d" -MT"triangle2.d" -o "triangle2.o" "../triangle2.c"
+Finished building: ../triangle2.c
+ 
+Building target: triangle2
+Invoking: GCC C Linker
+gcc  -o "triangle2"  ./triangle2.o   
+Finished building target: triangle2
+ 
+13:50:30 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:52:36 **** Build of configuration Debug for project ascii ****
+make all 
+Building file: ../ascii.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ascii.d" -MT"ascii.d" -o "ascii.o" "../ascii.c"
+Finished building: ../ascii.c
+ 
+Building target: ascii
+Invoking: GCC C Linker
+gcc  -o "ascii"  ./ascii.o   
+Finished building target: ascii
+ 
+13:52:36 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:52:36 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:52:38 **** Incremental Build of configuration Debug for project ascii ****
+make all 
+make: `all'를 위해 할 일이 없습니다
