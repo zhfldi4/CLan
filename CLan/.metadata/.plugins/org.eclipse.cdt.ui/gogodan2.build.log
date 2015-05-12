@@ -1,0 +1,15 @@
+15:13:21 **** Incremental Build of configuration Debug for project gogodan2 ****
+make all 
+Building file: ../gogodan2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"gogodan2.d" -MT"gogodan2.d" -o "gogodan2.o" "../gogodan2.c"
+Finished building: ../gogodan2.c
+ 
+Building target: gogodan2
+Invoking: GCC C Linker
+gcc  -o "gogodan2"  ./gogodan2.o   
+Finished building target: gogodan2
+ 
+
+15:13:21 Build Finished (took 176ms)
+

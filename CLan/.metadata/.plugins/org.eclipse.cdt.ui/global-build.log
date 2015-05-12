@@ -1438,3 +1438,153 @@ make: `all'를 위해 할 일이 없습니다
 14:15:09 **** Incremental Build of configuration Debug for project blankdel ****
 make all 
 make: `all'를 위해 할 일이 없습니다
+15:13:02 **** Incremental Build of configuration Debug for project ascii ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:13:02 **** Build of configuration Debug for project gogodan2 ****
+make all 
+Building file: ../gogodan2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"gogodan2.d" -MT"gogodan2.d" -o "gogodan2.o" "../gogodan2.c"
+Finished building: ../gogodan2.c
+ 
+Building target: gogodan2
+Invoking: GCC C Linker
+gcc  -o "gogodan2"  ./gogodan2.o   
+Finished building target: gogodan2
+ 
+15:13:03 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:13:03 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:13:10 **** Incremental Build of configuration Debug for project gogodan2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:13:21 **** Incremental Build of configuration Debug for project gogodan2 ****
+make all 
+Building file: ../gogodan2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"gogodan2.d" -MT"gogodan2.d" -o "gogodan2.o" "../gogodan2.c"
+Finished building: ../gogodan2.c
+ 
+Building target: gogodan2
+Invoking: GCC C Linker
+gcc  -o "gogodan2"  ./gogodan2.o   
+Finished building target: gogodan2
+ 
+15:15:30 **** Incremental Build of configuration Debug for project ascii ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:15:30 **** Build of configuration Debug for project return ****
+make all 
+Building file: ../src/return.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/return.d" -MT"src/return.d" -o "src/return.o" "../src/return.c"
+Finished building: ../src/return.c
+ 
+Building target: return
+Invoking: GCC C Linker
+gcc  -o "return"  ./src/return.o   
+Finished building target: return
+ 
+15:15:30 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:15:30 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:15:35 **** Incremental Build of configuration Debug for project return ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:19:41 **** Incremental Build of configuration Debug for project ascii ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:19:41 **** Build of configuration Debug for project function ****
+make all 
+Building file: ../src/function.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/function.d" -MT"src/function.d" -o "src/function.o" "../src/function.c"
+../src/function.c: In function ‘bigger_number’:
+../src/function.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../src/function.c
+ 
+Building target: function
+Invoking: GCC C Linker
+gcc  -o "function"  ./src/function.o   
+Finished building target: function
+ 
+15:19:42 **** Incremental Build of configuration Debug for project return ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:19:42 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:19:42 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:20:02 **** Incremental Build of configuration Debug for project ascii ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:20:02 **** Incremental Build of configuration Debug for project function ****
+make all 
+Building file: ../src/function.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/function.d" -MT"src/function.d" -o "src/function.o" "../src/function.c"
+../src/function.c: In function ‘bigger_number’:
+../src/function.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../src/function.c
+ 
+Building target: function
+Invoking: GCC C Linker
+gcc  -o "function"  ./src/function.o   
+Finished building target: function
+ 
+15:20:02 **** Incremental Build of configuration Debug for project return ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:20:02 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:20:02 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:20:08 **** Incremental Build of configuration Debug for project function ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:22:50 **** Incremental Build of configuration Debug for project ascii ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:22:51 **** Incremental Build of configuration Debug for project function ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:22:51 **** Incremental Build of configuration Debug for project return ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:22:51 **** Build of configuration Debug for project scope ****
+make all 
+Building file: ../src/scope.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/scope.d" -MT"src/scope.d" -o "src/scope.o" "../src/scope.c"
+../src/scope.c: In function ‘main’:
+../src/scope.c:22:7: warning: unused variable ‘x’ [-Wunused-variable]
+../src/scope.c:26:22: warning: unused variable ‘x3’ [-Wunused-variable]
+../src/scope.c:26:14: warning: unused variable ‘x2’ [-Wunused-variable]
+../src/scope.c:26:7: warning: unused variable ‘x’ [-Wunused-variable]
+Finished building: ../src/scope.c
+ 
+Building target: scope
+Invoking: GCC C Linker
+gcc  -o "scope"  ./src/scope.o   
+Finished building target: scope
+ 
+15:22:52 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:22:52 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:22:56 **** Incremental Build of configuration Debug for project scope ****
+make all 
+make: `all'를 위해 할 일이 없습니다
