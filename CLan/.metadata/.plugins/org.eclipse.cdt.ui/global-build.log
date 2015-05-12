@@ -1225,3 +1225,66 @@ Finished building target: wordCut
 13:03:52 **** Incremental Build of configuration Debug for project wordCut ****
 make all 
 make: `all'를 위해 할 일이 없습니다
+13:18:09 **** Build of configuration Debug for project Menu ****
+make all 
+Building file: ../menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"menu.d" -MT"menu.d" -o "menu.o" "../menu.c"
+Finished building: ../menu.c
+ 
+Building target: Menu
+Invoking: GCC C Linker
+gcc  -o "Menu"  ./menu.o   
+Finished building target: Menu
+ 
+13:18:09 **** Incremental Build of configuration Debug for project operation ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:18:09 **** Incremental Build of configuration Debug for project wordCut ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:18:30 **** Incremental Build of configuration Debug for project Menu ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:23:05 **** Incremental Build of configuration Debug for project Menu ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:23:05 **** Build of configuration Debug for project itoa ****
+make all 
+Building file: ../itoa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"itoa.d" -MT"itoa.d" -o "itoa.o" "../itoa.c"
+../itoa.c: In function ‘main’:
+../itoa.c:28:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../itoa.c:28:18: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+Finished building: ../itoa.c
+ 
+Building target: itoa
+Invoking: GCC C Linker
+gcc  -o "itoa"  ./itoa.o   
+Finished building target: itoa
+ 
+13:23:06 **** Incremental Build of configuration Debug for project operation ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:23:06 **** Incremental Build of configuration Debug for project wordCut ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:23:19 **** Incremental Build of configuration Debug for project itoa ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:23:58 **** Incremental Build of configuration Debug for project itoa ****
+make all 
+Building file: ../itoa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"itoa.d" -MT"itoa.d" -o "itoa.o" "../itoa.c"
+../itoa.c: In function ‘main’:
+../itoa.c:30:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../itoa.c:30:18: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+Finished building: ../itoa.c
+ 
+Building target: itoa
+Invoking: GCC C Linker
+gcc  -o "itoa"  ./itoa.o   
+Finished building target: itoa
+ 
