@@ -1,0 +1,15 @@
+13:01:34 **** Incremental Build of configuration Debug for project encrypt ****
+make all 
+Building file: ../encrypt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"encrypt.d" -MT"encrypt.d" -o "encrypt.o" "../encrypt.c"
+Finished building: ../encrypt.c
+ 
+Building target: encrypt
+Invoking: GCC C Linker
+gcc  -o "encrypt"  ./encrypt.o   
+Finished building target: encrypt
+ 
+
+13:01:34 Build Finished (took 178ms)
+

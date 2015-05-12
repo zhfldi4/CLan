@@ -1,0 +1,1 @@
+wordcut.d: ../wordcut.c

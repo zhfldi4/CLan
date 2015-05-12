@@ -1080,3 +1080,148 @@ Invoking: GCC C Linker
 gcc  -o "hexToBin"  ./haxtobin.o   
 Finished building target: hexToBin
  
+12:56:07 **** Build of configuration Debug for project onetohund ****
+make all 
+Building file: ../sumhund.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sumhund.d" -MT"sumhund.d" -o "sumhund.o" "../sumhund.c"
+Finished building: ../sumhund.c
+ 
+Building target: onetohund
+Invoking: GCC C Linker
+gcc  -o "onetohund"  ./sumhund.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: ld returned 1 exit status
+make: *** [onetohund] 오류 1
+12:56:08 **** Incremental Build of configuration Debug for project operation ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+12:56:10 **** Incremental Build of configuration Debug for project onetohund ****
+make all 
+Building file: ../sumhund.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sumhund.d" -MT"sumhund.d" -o "sumhund.o" "../sumhund.c"
+Finished building: ../sumhund.c
+ 
+Building target: onetohund
+Invoking: GCC C Linker
+gcc  -o "onetohund"  ./sumhund.o   
+Finished building target: onetohund
+ 
+12:56:10 **** Incremental Build of configuration Debug for project operation ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+12:56:12 **** Incremental Build of configuration Debug for project onetohund ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+12:59:01 **** Build of configuration Debug for project encrypt ****
+make all 
+Building file: ../encrypt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"encrypt.d" -MT"encrypt.d" -o "encrypt.o" "../encrypt.c"
+Finished building: ../encrypt.c
+ 
+Building target: encrypt
+Invoking: GCC C Linker
+gcc  -o "encrypt"  ./encrypt.o   
+Finished building target: encrypt
+ 
+12:59:01 **** Incremental Build of configuration Debug for project operation ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+12:59:03 **** Incremental Build of configuration Debug for project encrypt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+12:59:34 **** Incremental Build of configuration Debug for project encrypt ****
+make all 
+Building file: ../encrypt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"encrypt.d" -MT"encrypt.d" -o "encrypt.o" "../encrypt.c"
+Finished building: ../encrypt.c
+ 
+Building target: encrypt
+Invoking: GCC C Linker
+gcc  -o "encrypt"  ./encrypt.o   
+Finished building target: encrypt
+ 
+12:59:53 **** Incremental Build of configuration Debug for project encrypt ****
+make all 
+Building file: ../encrypt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"encrypt.d" -MT"encrypt.d" -o "encrypt.o" "../encrypt.c"
+Finished building: ../encrypt.c
+ 
+Building target: encrypt
+Invoking: GCC C Linker
+gcc  -o "encrypt"  ./encrypt.o   
+Finished building target: encrypt
+ 
+13:00:17 **** Incremental Build of configuration Debug for project encrypt ****
+make all 
+Building file: ../encrypt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"encrypt.d" -MT"encrypt.d" -o "encrypt.o" "../encrypt.c"
+Finished building: ../encrypt.c
+ 
+Building target: encrypt
+Invoking: GCC C Linker
+gcc  -o "encrypt"  ./encrypt.o   
+Finished building target: encrypt
+ 
+13:00:32 **** Incremental Build of configuration Debug for project encrypt ****
+make all 
+Building file: ../encrypt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"encrypt.d" -MT"encrypt.d" -o "encrypt.o" "../encrypt.c"
+Finished building: ../encrypt.c
+ 
+Building target: encrypt
+Invoking: GCC C Linker
+gcc  -o "encrypt"  ./encrypt.o   
+Finished building target: encrypt
+ 
+13:01:12 **** Incremental Build of configuration Debug for project encrypt ****
+make all 
+Building file: ../encrypt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"encrypt.d" -MT"encrypt.d" -o "encrypt.o" "../encrypt.c"
+Finished building: ../encrypt.c
+ 
+Building target: encrypt
+Invoking: GCC C Linker
+gcc  -o "encrypt"  ./encrypt.o   
+Finished building target: encrypt
+ 
+13:01:34 **** Incremental Build of configuration Debug for project encrypt ****
+make all 
+Building file: ../encrypt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"encrypt.d" -MT"encrypt.d" -o "encrypt.o" "../encrypt.c"
+Finished building: ../encrypt.c
+ 
+Building target: encrypt
+Invoking: GCC C Linker
+gcc  -o "encrypt"  ./encrypt.o   
+Finished building target: encrypt
+ 
+13:03:44 **** Incremental Build of configuration Debug for project operation ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:03:44 **** Build of configuration Debug for project wordCut ****
+make all 
+Building file: ../wordcut.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"wordcut.d" -MT"wordcut.d" -o "wordcut.o" "../wordcut.c"
+../wordcut.c: In function ‘main’:
+../wordcut.c:17:26: warning: multi-character character constant [-Wmultichar]
+Finished building: ../wordcut.c
+ 
+Building target: wordCut
+Invoking: GCC C Linker
+gcc  -o "wordCut"  ./wordcut.o   
+Finished building target: wordCut
+ 
+13:03:52 **** Incremental Build of configuration Debug for project wordCut ****
+make all 
+make: `all'를 위해 할 일이 없습니다

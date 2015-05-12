@@ -1,0 +1,1 @@
+encrypt.d: ../encrypt.c

@@ -1,0 +1,1 @@
+sumhund.d: ../sumhund.c

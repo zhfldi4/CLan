@@ -1,0 +1,6 @@
+13:03:52 **** Incremental Build of configuration Debug for project wordCut ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+13:03:52 Build Finished (took 74ms)
+
