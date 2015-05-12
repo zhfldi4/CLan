@@ -1,0 +1,21 @@
+/*
+ * haxtobin.c
+ *
+ *  Created on: 2015. 5. 12.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	char *data = "3AF7";
+
+	int i, j;
+	int total = 0;
+	char buf[32];
+
+	strcpy(buf, "");
+
+	return 0;
+}

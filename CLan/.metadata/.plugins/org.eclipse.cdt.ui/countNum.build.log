@@ -1,0 +1,15 @@
+12:42:15 **** Incremental Build of configuration Debug for project countNum ****
+make all 
+Building file: ../countNum.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"countNum.d" -MT"countNum.d" -o "countNum.o" "../countNum.c"
+Finished building: ../countNum.c
+ 
+Building target: countNum
+Invoking: GCC C Linker
+gcc  -o "countNum"  ./countNum.o   
+Finished building target: countNum
+ 
+
+12:42:15 Build Finished (took 300ms)
+

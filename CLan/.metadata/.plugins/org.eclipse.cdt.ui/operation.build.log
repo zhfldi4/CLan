@@ -1,15 +1,6 @@
-11:32:15 **** Incremental Build of configuration Debug for project operation ****
+12:48:24 **** Incremental Build of configuration Debug for project operation ****
 make all 
-Building file: ../operation.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"operation.d" -MT"operation.d" -o "operation.o" "../operation.c"
-Finished building: ../operation.c
- 
-Building target: operation
-Invoking: GCC C Linker
-gcc  -o "operation"  ./operation.o   
-Finished building target: operation
- 
+make: `all'를 위해 할 일이 없습니다
 
-11:32:15 Build Finished (took 224ms)
+12:48:24 Build Finished (took 77ms)
 

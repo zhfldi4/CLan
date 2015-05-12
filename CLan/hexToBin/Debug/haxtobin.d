@@ -1,0 +1,1 @@
+haxtobin.d: ../haxtobin.c

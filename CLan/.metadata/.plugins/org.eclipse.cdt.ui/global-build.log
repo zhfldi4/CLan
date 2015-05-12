@@ -998,3 +998,85 @@ Invoking: GCC C Linker
 gcc  -o "operation"  ./operation.o   
 Finished building target: operation
  
+12:40:54 **** Build of configuration Debug for project countNum ****
+make all 
+Building file: ../countNum.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"countNum.d" -MT"countNum.d" -o "countNum.o" "../countNum.c"
+Finished building: ../countNum.c
+ 
+Building target: countNum
+Invoking: GCC C Linker
+gcc  -o "countNum"  ./countNum.o   
+Finished building target: countNum
+ 
+12:40:58 **** Incremental Build of configuration Debug for project operation ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+12:41:00 **** Incremental Build of configuration Debug for project countNum ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+12:41:44 **** Incremental Build of configuration Debug for project countNum ****
+make all 
+Building file: ../countNum.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"countNum.d" -MT"countNum.d" -o "countNum.o" "../countNum.c"
+Finished building: ../countNum.c
+ 
+Building target: countNum
+Invoking: GCC C Linker
+gcc  -o "countNum"  ./countNum.o   
+Finished building target: countNum
+ 
+12:42:15 **** Incremental Build of configuration Debug for project countNum ****
+make all 
+Building file: ../countNum.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"countNum.d" -MT"countNum.d" -o "countNum.o" "../countNum.c"
+Finished building: ../countNum.c
+ 
+Building target: countNum
+Invoking: GCC C Linker
+gcc  -o "countNum"  ./countNum.o   
+Finished building target: countNum
+ 
+12:48:23 **** Build of configuration Debug for project hexToBin ****
+make all 
+Building file: ../haxtobin.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"haxtobin.d" -MT"haxtobin.d" -o "haxtobin.o" "../haxtobin.c"
+../haxtobin.c: In function ‘main’:
+../haxtobin.c:19:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+../haxtobin.c:19:2: warning: incompatible implicit declaration of built-in function ‘strcpy’ [enabled by default]
+../haxtobin.c:24:4: warning: implicit declaration of function ‘strcat’ [-Wimplicit-function-declaration]
+../haxtobin.c:24:4: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+../haxtobin.c:45:5: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+../haxtobin.c:15:6: warning: unused variable ‘total’ [-Wunused-variable]
+Finished building: ../haxtobin.c
+ 
+Building target: hexToBin
+Invoking: GCC C Linker
+gcc  -o "hexToBin"  ./haxtobin.o   
+Finished building target: hexToBin
+ 
+12:48:24 **** Incremental Build of configuration Debug for project operation ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+12:49:10 **** Incremental Build of configuration Debug for project hexToBin ****
+make all 
+Building file: ../haxtobin.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"haxtobin.d" -MT"haxtobin.d" -o "haxtobin.o" "../haxtobin.c"
+../haxtobin.c: In function ‘main’:
+../haxtobin.c:18:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+../haxtobin.c:18:2: warning: incompatible implicit declaration of built-in function ‘strcpy’ [enabled by default]
+../haxtobin.c:23:4: warning: implicit declaration of function ‘strcat’ [-Wimplicit-function-declaration]
+../haxtobin.c:23:4: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+../haxtobin.c:44:5: warning: incompatible implicit declaration of built-in function ‘strcat’ [enabled by default]
+Finished building: ../haxtobin.c
+ 
+Building target: hexToBin
+Invoking: GCC C Linker
+gcc  -o "hexToBin"  ./haxtobin.o   
+Finished building target: hexToBin
+ 
