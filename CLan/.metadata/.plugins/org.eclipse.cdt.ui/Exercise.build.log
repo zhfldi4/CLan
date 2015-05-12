@@ -1,15 +1,6 @@
-14:11:26 **** Incremental Build of configuration Debug for project Exercise ****
+10:52:20 **** Incremental Build of configuration Debug for project Exercise ****
 make all 
-Building file: ../M02-1.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-1.d" -MT"M02-1.d" -o "M02-1.o" "../M02-1.c"
-Finished building: ../M02-1.c
- 
-Building target: Exercise
-Invoking: GCC C Linker
-gcc  -o "Exercise"  ./M02-1.o   
-Finished building target: Exercise
- 
+make: `all'를 위해 할 일이 없습니다
 
-14:11:27 Build Finished (took 222ms)
+10:52:20 Build Finished (took 70ms)
 

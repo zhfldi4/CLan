@@ -1,0 +1,1 @@
+bodytype.d: ../bodytype.c

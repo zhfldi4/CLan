@@ -1,0 +1,16 @@
+/*
+ * M02-1.c
+ *
+ *  Created on: 2015. 5. 11.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+#define DAY 86400
+
+int main(void) {
+
+
+	return 0;
+}

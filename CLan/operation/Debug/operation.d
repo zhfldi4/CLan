@@ -1,0 +1,1 @@
+operation.d: ../operation.c

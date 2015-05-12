@@ -1,0 +1,31 @@
+/*
+ * M02-4.c
+ *
+ *  Created on: 2015. 5. 12.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int num;
+
+	puts("Input num");
+	scanf("%d", &num);
+
+	int i;
+
+	for (i = 1; i <= 32; i++) {
+		if (num & 0x80000000)
+			putchar('1');
+		else
+			putchar('0');
+
+		num <<= 1;
+
+		if ((i % 4) == 0)
+			putchar(' ');
+	}
+	return 0;
+}

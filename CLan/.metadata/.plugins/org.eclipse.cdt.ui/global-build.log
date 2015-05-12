@@ -657,3 +657,344 @@ Finished building target: implicit
 17:32:48 **** Incremental Build of configuration Debug for project implicit ****
 make all 
 make: `all'를 위해 할 일이 없습니다
+10:03:28 **** Build of configuration Debug for project Test ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:16:2: warning: passing argument 1 of ‘puts’ makes pointer from integer without a cast [enabled by default]
+/usr/include/stdio.h:692:12: note: expected ‘const char *’ but argument is of type ‘int’
+Finished building: ../test.c
+ 
+Building target: Test
+Invoking: GCC C Linker
+gcc  -o "Test"  ./test.o   
+Finished building target: Test
+ 
+10:03:32 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:03:47 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: Test
+Invoking: GCC C Linker
+gcc  -o "Test"  ./test.o   
+Finished building target: Test
+ 
+10:04:12 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: Test
+Invoking: GCC C Linker
+gcc  -o "Test"  ./test.o   
+Finished building target: Test
+ 
+10:38:36 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+Building file: ../M02-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-1.d" -MT"M02-1.d" -o "M02-1.o" "../M02-1.c"
+Finished building: ../M02-1.c
+ 
+Building target: Exercise
+Invoking: GCC C Linker
+gcc  -o "Exercise"  ./M02-1.o   
+Finished building target: Exercise
+ 
+10:38:38 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:39:12 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+Building file: ../M02-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-1.d" -MT"M02-1.d" -o "M02-1.o" "../M02-1.c"
+Finished building: ../M02-1.c
+ 
+Building target: Exercise
+Invoking: GCC C Linker
+gcc  -o "Exercise"  ./M02-1.o   
+Finished building target: Exercise
+ 
+10:39:30 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+Building file: ../M02-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-1.d" -MT"M02-1.d" -o "M02-1.o" "../M02-1.c"
+Finished building: ../M02-1.c
+ 
+Building target: Exercise
+Invoking: GCC C Linker
+gcc  -o "Exercise"  ./M02-1.o   
+Finished building target: Exercise
+ 
+10:41:28 **** Clean-only build of configuration Debug for project Exercise ****
+make clean 
+rm -rf  ./M02-1.o  ./M02-1.d  Exercise
+ 
+10:41:28 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+Building file: ../medium/M02-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"medium/M02-2.d" -MT"medium/M02-2.d" -o "medium/M02-2.o" "../medium/M02-2.c"
+Finished building: ../medium/M02-2.c
+ 
+Building file: ../M02-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-1.d" -MT"M02-1.d" -o "M02-1.o" "../M02-1.c"
+Finished building: ../M02-1.c
+ 
+Building target: Exercise
+Invoking: GCC C Linker
+gcc  -o "Exercise"  ./medium/M02-2.o  ./M02-1.o   
+./M02-1.o: In function `main':
+/root/workspace/CLan/Exercise/Debug/../M02-1.c:12: multiple definition of `main'
+./medium/M02-2.o:/root/workspace/CLan/Exercise/Debug/../medium/M02-2.c:10: first defined here
+collect2: ld returned 1 exit status
+make: *** [Exercise] 오류 1
+10:41:43 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+Building target: Exercise
+Invoking: GCC C Linker
+gcc  -o "Exercise"  ./medium/M02-2.o  ./M02-1.o   
+./M02-1.o: In function `main':
+/root/workspace/CLan/Exercise/Debug/../M02-1.c:12: multiple definition of `main'
+./medium/M02-2.o:/root/workspace/CLan/Exercise/Debug/../medium/M02-2.c:10: first defined here
+collect2: ld returned 1 exit status
+make: *** [Exercise] 오류 1
+10:41:46 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+Building target: Exercise
+Invoking: GCC C Linker
+gcc  -o "Exercise"  ./medium/M02-2.o  ./M02-1.o   
+./M02-1.o: In function `main':
+/root/workspace/CLan/Exercise/Debug/../M02-1.c:12: multiple definition of `main'
+./medium/M02-2.o:/root/workspace/CLan/Exercise/Debug/../medium/M02-2.c:10: first defined here
+collect2: ld returned 1 exit status
+make: *** [Exercise] 오류 1
+10:42:39 **** Clean-only build of configuration Debug for project Exercise ****
+make clean 
+rm -rf  ./medium/M02-2.o  ./M02-1.o  ./medium/M02-2.d  ./M02-1.d  Exercise
+ 
+10:42:39 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+Building file: ../M02-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-1.d" -MT"M02-1.d" -o "M02-1.o" "../M02-1.c"
+Finished building: ../M02-1.c
+ 
+Building target: Exercise
+Invoking: GCC C Linker
+gcc  -o "Exercise"  ./M02-1.o   
+Finished building target: Exercise
+ 
+10:42:39 **** Build of configuration Debug for project Exercise2 ****
+make all 
+Building file: ../M02-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-2.d" -MT"M02-2.d" -o "M02-2.o" "../M02-2.c"
+Finished building: ../M02-2.c
+ 
+Building target: Exercise2
+Invoking: GCC C Linker
+gcc  -o "Exercise2"  ./M02-2.o   
+Finished building target: Exercise2
+ 
+10:42:42 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:42:42 **** Incremental Build of configuration Debug for project Exercise2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:42:45 **** Incremental Build of configuration Debug for project Exercise2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:42:53 **** Incremental Build of configuration Debug for project Exercise2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:45:06 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:45:07 **** Incremental Build of configuration Debug for project Exercise2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:45:07 **** Build of configuration Debug for project Exercise3 ****
+make all 
+Building file: ../M02-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-3.d" -MT"M02-3.d" -o "M02-3.o" "../M02-3.c"
+../M02-3.c: In function ‘main’:
+../M02-3.c:17:42: warning: operation on ‘num1’ may be undefined [-Wsequence-point]
+Finished building: ../M02-3.c
+ 
+Building target: Exercise3
+Invoking: GCC C Linker
+gcc  -o "Exercise3"  ./M02-3.o   
+Finished building target: Exercise3
+ 
+10:45:09 **** Incremental Build of configuration Debug for project Exercise3 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:45:40 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:45:40 **** Incremental Build of configuration Debug for project Exercise2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:45:40 **** Incremental Build of configuration Debug for project Exercise3 ****
+make all 
+Building file: ../M02-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-3.d" -MT"M02-3.d" -o "M02-3.o" "../M02-3.c"
+Finished building: ../M02-3.c
+ 
+Building target: Exercise3
+Invoking: GCC C Linker
+gcc  -o "Exercise3"  ./M02-3.o   
+Finished building target: Exercise3
+ 
+10:45:42 **** Incremental Build of configuration Debug for project Exercise3 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:48:44 **** Incremental Build of configuration Debug for project Exercise3 ****
+make all 
+Building file: ../M02-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-3.d" -MT"M02-3.d" -o "M02-3.o" "../M02-3.c"
+Finished building: ../M02-3.c
+ 
+Building target: Exercise3
+Invoking: GCC C Linker
+gcc  -o "Exercise3"  ./M02-3.o   
+Finished building target: Exercise3
+ 
+10:52:20 **** Incremental Build of configuration Debug for project Exercise ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:52:20 **** Incremental Build of configuration Debug for project Exercise2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:52:20 **** Incremental Build of configuration Debug for project Exercise3 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:52:20 **** Build of configuration Debug for project Exercise4 ****
+make all 
+Building file: ../M02-4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-4.d" -MT"M02-4.d" -o "M02-4.o" "../M02-4.c"
+Finished building: ../M02-4.c
+ 
+Building target: Exercise4
+Invoking: GCC C Linker
+gcc  -o "Exercise4"  ./M02-4.o   
+Finished building target: Exercise4
+ 
+10:52:22 **** Incremental Build of configuration Debug for project Exercise4 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+10:52:47 **** Incremental Build of configuration Debug for project Exercise4 ****
+make all 
+Building file: ../M02-4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-4.d" -MT"M02-4.d" -o "M02-4.o" "../M02-4.c"
+Finished building: ../M02-4.c
+ 
+Building target: Exercise4
+Invoking: GCC C Linker
+gcc  -o "Exercise4"  ./M02-4.o   
+Finished building target: Exercise4
+ 
+10:53:20 **** Incremental Build of configuration Debug for project Exercise4 ****
+make all 
+Building file: ../M02-4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-4.d" -MT"M02-4.d" -o "M02-4.o" "../M02-4.c"
+Finished building: ../M02-4.c
+ 
+Building target: Exercise4
+Invoking: GCC C Linker
+gcc  -o "Exercise4"  ./M02-4.o   
+Finished building target: Exercise4
+ 
+10:53:33 **** Incremental Build of configuration Debug for project Exercise4 ****
+make all 
+Building file: ../M02-4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-4.d" -MT"M02-4.d" -o "M02-4.o" "../M02-4.c"
+Finished building: ../M02-4.c
+ 
+Building target: Exercise4
+Invoking: GCC C Linker
+gcc  -o "Exercise4"  ./M02-4.o   
+Finished building target: Exercise4
+ 
+10:53:44 **** Incremental Build of configuration Debug for project Exercise4 ****
+make all 
+Building file: ../M02-4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"M02-4.d" -MT"M02-4.d" -o "M02-4.o" "../M02-4.c"
+Finished building: ../M02-4.c
+ 
+Building target: Exercise4
+Invoking: GCC C Linker
+gcc  -o "Exercise4"  ./M02-4.o   
+Finished building target: Exercise4
+ 
+11:27:10 **** Build of configuration Debug for project bodytype ****
+make all 
+Building file: ../bodytype.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"bodytype.d" -MT"bodytype.d" -o "bodytype.o" "../bodytype.c"
+Finished building: ../bodytype.c
+ 
+Building target: bodytype
+Invoking: GCC C Linker
+gcc  -o "bodytype"  ./bodytype.o   
+Finished building target: bodytype
+ 
+11:27:12 **** Incremental Build of configuration Debug for project bodytype ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+11:27:26 **** Incremental Build of configuration Debug for project bodytype ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+11:31:19 **** Build of configuration Debug for project operation ****
+make all 
+Building file: ../operation.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"operation.d" -MT"operation.d" -o "operation.o" "../operation.c"
+Finished building: ../operation.c
+ 
+Building target: operation
+Invoking: GCC C Linker
+gcc  -o "operation"  ./operation.o   
+Finished building target: operation
+ 
+11:31:21 **** Incremental Build of configuration Debug for project operation ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+11:31:39 **** Incremental Build of configuration Debug for project operation ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+11:32:15 **** Incremental Build of configuration Debug for project operation ****
+make all 
+Building file: ../operation.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"operation.d" -MT"operation.d" -o "operation.o" "../operation.c"
+Finished building: ../operation.c
+ 
+Building target: operation
+Invoking: GCC C Linker
+gcc  -o "operation"  ./operation.o   
+Finished building target: operation
+ 

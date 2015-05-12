@@ -7,15 +7,19 @@
 
 #include <stdio.h>
 
-#define BIRTH(x) 2015 - x
+#define DAY 86400
 
 int main(void) {
 
-	int year = 1991;
+	int day;
 
-	year = BIRTH(year);
+	puts("Input seconds");
+	scanf("%d", &day);
 
-	printf("%d", year);
+	int calc_day = day / DAY;
+	int day_left = (day % DAY) / 3600;
+
+	printf("%d day %d hour", calc_day, day_left);
 
 	return 0;
 }
