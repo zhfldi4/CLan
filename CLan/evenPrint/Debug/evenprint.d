@@ -1,0 +1,1 @@
+evenprint.d: ../evenprint.c

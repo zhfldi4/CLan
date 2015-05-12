@@ -1,0 +1,1 @@
+blankdel.d: ../blankdel.c

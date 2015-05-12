@@ -1,6 +1,6 @@
-13:52:38 **** Incremental Build of configuration Debug for project ascii ****
+14:15:04 **** Incremental Build of configuration Debug for project ascii ****
 make all 
 make: `all'를 위해 할 일이 없습니다
 
-13:52:38 Build Finished (took 138ms)
+14:15:04 Build Finished (took 61ms)
 

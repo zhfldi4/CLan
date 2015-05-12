@@ -1375,3 +1375,66 @@ make: `all'를 위해 할 일이 없습니다
 13:52:38 **** Incremental Build of configuration Debug for project ascii ****
 make all 
 make: `all'를 위해 할 일이 없습니다
+14:12:43 **** Incremental Build of configuration Debug for project ascii ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:12:43 **** Build of configuration Debug for project evenPrint ****
+make all 
+Building file: ../evenprint.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"evenprint.d" -MT"evenprint.d" -o "evenprint.o" "../evenprint.c"
+Finished building: ../evenprint.c
+ 
+Building target: evenPrint
+Invoking: GCC C Linker
+gcc  -o "evenPrint"  ./evenprint.o   
+Finished building target: evenPrint
+ 
+14:12:43 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:12:44 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:12:49 **** Incremental Build of configuration Debug for project evenPrint ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:13:19 **** Incremental Build of configuration Debug for project evenPrint ****
+make all 
+Building file: ../evenprint.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"evenprint.d" -MT"evenprint.d" -o "evenprint.o" "../evenprint.c"
+Finished building: ../evenprint.c
+ 
+Building target: evenPrint
+Invoking: GCC C Linker
+gcc  -o "evenPrint"  ./evenprint.o   
+Finished building target: evenPrint
+ 
+14:15:04 **** Incremental Build of configuration Debug for project ascii ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:15:04 **** Build of configuration Debug for project blankdel ****
+make all 
+Building file: ../blankdel.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"blankdel.d" -MT"blankdel.d" -o "blankdel.o" "../blankdel.c"
+Finished building: ../blankdel.c
+ 
+Building target: blankdel
+Invoking: GCC C Linker
+gcc  -o "blankdel"  ./blankdel.o   
+Finished building target: blankdel
+ 
+14:15:04 **** Incremental Build of configuration Debug for project evenPrint ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:15:05 **** Incremental Build of configuration Debug for project triangle ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:15:05 **** Incremental Build of configuration Debug for project triangle2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:15:09 **** Incremental Build of configuration Debug for project blankdel ****
+make all 
+make: `all'를 위해 할 일이 없습니다
