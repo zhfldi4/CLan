@@ -1,0 +1,43 @@
+/*
+ * test.c
+ *
+ *  Created on: 2015. 5. 14.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+void print_transpose(int &matrix );
+
+int main(void) {
+
+	int matrix[3][3] = {{2,4,6}, {8,10, 12}, {14,16,18}};
+
+
+	int i, j;
+
+	puts("Original Matrix");
+	for (i = 0; i < 3; i++) {
+		for (j = 0; j < 3; j++) {
+			printf("%d\t",matrix[i][j]);
+		}
+		puts("");
+	}
+
+	puts("Transposed matrix");
+	print_transpose(matrix);
+
+	return 0;
+}
+
+void print_transpose(int &matrix ) {
+
+	int i, j;
+
+	for (i = 0; i < 3; i++) {
+		for (j = 0; j < 3; j++) {
+			printf("%d\n", matrix[j][i]);
+		}
+		puts("");
+	}
+}

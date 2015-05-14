@@ -1,0 +1,25 @@
+/*
+ * test.c
+ *
+ *  Created on: 2015. 5. 14.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	char ch;
+	int alphabet[26] = {0,};
+
+	while ((ch = getchar()) != '\n') {
+		alphabet[97 - ch]++;
+	}
+
+	int i;
+	for (i = 0; i < 26; i++) {
+		printf("%c\t\t%d\n",(char) 97 + i, alphabet[i]);
+	}
+
+	return 0;
+}

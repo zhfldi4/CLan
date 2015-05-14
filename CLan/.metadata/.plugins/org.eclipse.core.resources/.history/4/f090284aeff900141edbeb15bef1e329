@@ -1,0 +1,24 @@
+/*
+ * zodic.c
+ *
+ *  Created on: 2015. 5. 14.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+#define YEAR 1900
+
+int main(void) {
+
+	int birth_year;
+
+	puts("Input Birth Year:");
+	scanf("%d", &birth_year);
+
+	birth_year -= YEAR;
+
+	printf("%d", birth_year % 12);
+
+	return 0;
+}

@@ -1,0 +1,1 @@
+euclidean.d: ../euclidean.c

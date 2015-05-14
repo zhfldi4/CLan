@@ -1,0 +1,6 @@
+15:20:22 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+15:20:22 Build Finished (took 78ms)
+

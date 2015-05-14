@@ -1,0 +1,15 @@
+14:04:05 **** Incremental Build of configuration Debug for project ChineseZodicSign ****
+make all 
+Building file: ../zodic.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zodic.d" -MT"zodic.d" -o "zodic.o" "../zodic.c"
+Finished building: ../zodic.c
+ 
+Building target: ChineseZodicSign
+Invoking: GCC C Linker
+gcc  -o "ChineseZodicSign"  ./zodic.o   
+Finished building target: ChineseZodicSign
+ 
+
+14:04:06 Build Finished (took 178ms)
+

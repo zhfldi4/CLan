@@ -1,0 +1,29 @@
+/*
+ * euclidean.c
+ *
+ *  Created on: 2015. 5. 14.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int gcd(int , int);
+
+
+int main(void) {
+
+	int a, b;
+	puts("Input a, b");
+	scanf("%d %d", &a, &b);
+
+	printf("%d", gcd(a, b));
+
+	return 0;
+}
+
+int gcd(int x, int y) {
+
+	if (y == 0) return x;
+	gcd(y, x % y);
+
+}

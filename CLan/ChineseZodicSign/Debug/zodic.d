@@ -1,0 +1,1 @@
+zodic.d: ../zodic.c
