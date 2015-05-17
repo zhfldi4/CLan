@@ -1,0 +1,21 @@
+/*
+ * test.c
+ *
+ *  Created on: 2015. 5. 14.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int k = 8;
+	int *p = &k;
+
+	printf("k's Address: %u\n", &k);
+	printf("p's Address: %u\n", &p);
+	printf("p's Value: %u\n", p);
+	printf("Position to p indicate: %d\n ", *p);
+
+	return 0;
+}

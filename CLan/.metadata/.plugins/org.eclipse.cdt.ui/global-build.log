@@ -2683,3 +2683,221 @@ Finished building target: myungpurm
 15:20:22 **** Incremental Build of configuration Debug for project myungpurm ****
 make all 
 make: `all'를 위해 할 일이 없습니다
+18:54:44 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:15:2: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘char *’ [-Wformat]
+../test.c:16:2: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat]
+Finished building: ../test.c
+ 
+Building target: myungpurm
+Invoking: GCC C Linker
+gcc  -o "myungpurm"  ./test.o   
+Finished building target: myungpurm
+ 
+18:56:27 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:15:2: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat]
+../test.c:16:2: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int **’ [-Wformat]
+../test.c:17:2: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat]
+Finished building: ../test.c
+ 
+Building target: myungpurm
+Invoking: GCC C Linker
+gcc  -o "myungpurm"  ./test.o   
+Finished building target: myungpurm
+ 
+18:58:41 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:17:2: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat]
+../test.c:18:2: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat]
+../test.c:19:2: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat]
+../test.c:20:2: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat]
+Finished building: ../test.c
+ 
+Building target: myungpurm
+Invoking: GCC C Linker
+gcc  -o "myungpurm"  ./test.o   
+Finished building target: myungpurm
+ 
+18:58:57 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:17:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat]
+../test.c:18:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat]
+../test.c:19:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat]
+../test.c:20:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat]
+Finished building: ../test.c
+ 
+Building target: myungpurm
+Invoking: GCC C Linker
+gcc  -o "myungpurm"  ./test.o   
+Finished building target: myungpurm
+ 
+18:59:15 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: myungpurm
+Invoking: GCC C Linker
+gcc  -o "myungpurm"  ./test.o   
+Finished building target: myungpurm
+ 
+19:00:42 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: myungpurm
+Invoking: GCC C Linker
+gcc  -o "myungpurm"  ./test.o   
+Finished building target: myungpurm
+ 
+19:04:32 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+19:04:32 **** Build of configuration Debug for project pointer ****
+make all 
+Building file: ../pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointer.d" -MT"pointer.d" -o "pointer.o" "../pointer.c"
+Finished building: ../pointer.c
+ 
+Building target: pointer
+Invoking: GCC C Linker
+gcc  -o "pointer"  ./pointer.o   
+Finished building target: pointer
+ 
+19:04:34 **** Incremental Build of configuration Debug for project pointer ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+19:04:48 **** Incremental Build of configuration Debug for project pointer ****
+make all 
+Building file: ../pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointer.d" -MT"pointer.d" -o "pointer.o" "../pointer.c"
+Finished building: ../pointer.c
+ 
+Building target: pointer
+Invoking: GCC C Linker
+gcc  -o "pointer"  ./pointer.o   
+Finished building target: pointer
+ 
+19:06:51 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: myungpurm
+Invoking: GCC C Linker
+gcc  -o "myungpurm"  ./test.o   
+Finished building target: myungpurm
+ 
+19:10:27 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: myungpurm
+Invoking: GCC C Linker
+gcc  -o "myungpurm"  ./test.o   
+Finished building target: myungpurm
+ 
+19:16:40 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: myungpurm
+Invoking: GCC C Linker
+gcc  -o "myungpurm"  ./test.o   
+Finished building target: myungpurm
+ 
+13:05:53 **** Build of configuration Debug for project absolute ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:34:44 **** Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:34:44 **** Build of configuration Debug for project untilSum ****
+make all 
+Building file: ../sumuntil.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sumuntil.d" -MT"sumuntil.d" -o "sumuntil.o" "../sumuntil.c"
+Finished building: ../sumuntil.c
+ 
+Building target: untilSum
+Invoking: GCC C Linker
+gcc  -o "untilSum"  ./sumuntil.o   
+Finished building target: untilSum
+ 
+13:34:51 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:34:51 **** Incremental Build of configuration Debug for project untilSum ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:34:55 **** Incremental Build of configuration Debug for project untilSum ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:35:01 **** Incremental Build of configuration Debug for project untilSum ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:35:06 **** Incremental Build of configuration Debug for project untilSum ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:38:19 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:38:19 **** Build of configuration Debug for project swap ****
+make all 
+Building file: ../swap.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swap.d" -MT"swap.d" -o "swap.o" "../swap.c"
+Finished building: ../swap.c
+ 
+Building target: swap
+Invoking: GCC C Linker
+gcc  -o "swap"  ./swap.o   
+Finished building target: swap
+ 
+13:38:21 **** Incremental Build of configuration Debug for project swap ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:38:34 **** Incremental Build of configuration Debug for project swap ****
+make all 
+Building file: ../swap.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swap.d" -MT"swap.d" -o "swap.o" "../swap.c"
+Finished building: ../swap.c
+ 
+Building target: swap
+Invoking: GCC C Linker
+gcc  -o "swap"  ./swap.o   
+Finished building target: swap
+ 

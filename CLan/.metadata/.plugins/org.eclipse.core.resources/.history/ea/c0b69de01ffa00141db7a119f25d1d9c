@@ -1,0 +1,25 @@
+/*
+ * test.c
+ *
+ *  Created on: 2015. 5. 14.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	int a[3] = {10, 20, 30};
+	int *pt;
+
+	pt = a;
+
+	printf("Array Name: %d\n", a);
+	printf("a[0]'s Address: %d\n", &a[0]);
+	printf("a[1]'s Address: %d\n", &a[1]);
+	printf("a[2]'s Address: %d\n", &a[2]);
+	printf("a[0]'s Value: %d\n", a[0]);
+	printf("Position to pt indicate: %d", *pt);
+
+	return 0;
+}

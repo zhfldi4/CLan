@@ -1,0 +1,23 @@
+/*
+ * test.c
+ *
+ *  Created on: 2015. 5. 14.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	char i = 3;
+	int k = 8;
+
+	printf("Variable i's Address(decimal): %u\n", &i);
+	printf("Variable k's Address(decimal): %u\n", &k);
+	printf("Variable i's Address(heximal): %p\n", &i);
+	printf("Variable k's Address(heximal): %p\n", &k);
+
+
+
+	return 0;
+}

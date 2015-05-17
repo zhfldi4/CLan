@@ -1,0 +1,1 @@
+pointer.d: ../pointer.c

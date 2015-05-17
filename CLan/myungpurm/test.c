@@ -6,20 +6,29 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void) {
 
-	char ch;
-	int alphabet[26] = {0,};
+	FILE *fp;
+	char c;
 
-	while ((ch = getchar()) != '\n') {
-		alphabet[ch - 97]++;
+	fp = fopen("chr.txt", "w");
+
+	if (fp == NULL) {
+		printf("File Open Error");
+		exit(1);
 	}
 
-	int i;
-	for (i = 0; i < 26; i++) {
-		printf("%c\t\t%d\n",(char) 97 + i, alphabet[i]);
+	printf("Input character Until the enter\n ");
+	printf("Input: ");
+
+	while ((c = getchar()) != '\n') {
+		printf("%c", c);
+		fputc(c, fp);
 	}
+
+	fclose(fp);
 
 	return 0;
 }

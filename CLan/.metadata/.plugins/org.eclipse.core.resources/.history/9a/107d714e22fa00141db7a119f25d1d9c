@@ -1,0 +1,22 @@
+/*
+ * test.c
+ *
+ *  Created on: 2015. 5. 14.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+	char nation[4][17] = {"Korea", "Brazill", "Germany", "Papua New Guinea"};
+	char *ct[] = {"Korea", "Brazil", "Germany", "Papua New Guinea"};;
+
+	printf("nation[2] : %s\n", nation[2]);
+	printf("nation[2][3] : %c\n", nation[2][3]);
+	printf("ct[2]: %s \n", ct[2]);
+	printf("ct[2][3]: %c\n", ct[2][3]);
+
+
+	return 0;
+}

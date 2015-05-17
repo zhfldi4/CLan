@@ -1,0 +1,1 @@
+sumuntil.d: ../sumuntil.c

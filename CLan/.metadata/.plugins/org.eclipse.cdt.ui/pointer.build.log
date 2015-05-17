@@ -1,0 +1,15 @@
+19:04:48 **** Incremental Build of configuration Debug for project pointer ****
+make all 
+Building file: ../pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointer.d" -MT"pointer.d" -o "pointer.o" "../pointer.c"
+Finished building: ../pointer.c
+ 
+Building target: pointer
+Invoking: GCC C Linker
+gcc  -o "pointer"  ./pointer.o   
+Finished building target: pointer
+ 
+
+19:04:48 Build Finished (took 193ms)
+
