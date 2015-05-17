@@ -1,0 +1,17 @@
+/*
+ * timeprogrma.c
+ *
+ *  Created on: 2015. 5. 17.
+ *      Author: root
+ */
+
+#include <stdio.h>
+#include <time.h>
+
+int main(void) {
+
+	int i;
+	time_t start, end, now;
+
+	return 0;
+}

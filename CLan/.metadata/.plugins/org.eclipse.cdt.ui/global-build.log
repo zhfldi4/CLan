@@ -3049,3 +3049,99 @@ Invoking: GCC C Linker
 gcc  -o "structPointer"  ./structPointer.o   
 Finished building target: structPointer
  
+15:03:41 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:03:41 **** Build of configuration Debug for project recur1 ****
+make all 
+Building file: ../recur1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recur1.d" -MT"recur1.d" -o "recur1.o" "../recur1.c"
+Finished building: ../recur1.c
+ 
+Building target: recur1
+Invoking: GCC C Linker
+gcc  -o "recur1"  ./recur1.o   
+Finished building target: recur1
+ 
+15:03:41 **** Incremental Build of configuration Debug for project structPointer ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:03:55 **** Incremental Build of configuration Debug for project recur1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:06:31 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:06:31 **** Incremental Build of configuration Debug for project recur1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:06:31 **** Build of configuration Debug for project recur2 ****
+make all 
+Building file: ../recur2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recur2.d" -MT"recur2.d" -o "recur2.o" "../recur2.c"
+../recur2.c: In function ‘main’:
+../recur2.c:19:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat]
+../recur2.c:19:2: warning: format ‘%ld’ expects a matching ‘long int’ argument [-Wformat]
+Finished building: ../recur2.c
+ 
+Building target: recur2
+Invoking: GCC C Linker
+gcc  -o "recur2"  ./recur2.o   
+Finished building target: recur2
+ 
+15:06:32 **** Incremental Build of configuration Debug for project structPointer ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:06:34 **** Incremental Build of configuration Debug for project recur2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:06:48 **** Incremental Build of configuration Debug for project recur2 ****
+make all 
+Building file: ../recur2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recur2.d" -MT"recur2.d" -o "recur2.o" "../recur2.c"
+Finished building: ../recur2.c
+ 
+Building target: recur2
+Invoking: GCC C Linker
+gcc  -o "recur2"  ./recur2.o   
+Finished building target: recur2
+ 
+15:07:12 **** Incremental Build of configuration Debug for project recur2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:07:17 **** Incremental Build of configuration Debug for project recur2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:07:25 **** Incremental Build of configuration Debug for project recur2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:38:55 **** Build of configuration Debug for project Timet ****
+make all 
+Building file: ../timeprogrma.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timeprogrma.d" -MT"timeprogrma.d" -o "timeprogrma.o" "../timeprogrma.c"
+Finished building: ../timeprogrma.c
+ 
+Building target: Timet
+Invoking: GCC C Linker
+gcc  -o "Timet"  ./timeprogrma.o   
+Finished building target: Timet
+ 
+15:38:56 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:38:56 **** Incremental Build of configuration Debug for project recur1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:38:57 **** Incremental Build of configuration Debug for project recur2 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:38:57 **** Incremental Build of configuration Debug for project structPointer ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:39:02 **** Incremental Build of configuration Debug for project Timet ****
+make all 
+make: `all'를 위해 할 일이 없습니다

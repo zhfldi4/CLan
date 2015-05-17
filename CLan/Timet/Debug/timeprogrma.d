@@ -1,0 +1,1 @@
+timeprogrma.d: ../timeprogrma.c
