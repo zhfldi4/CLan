@@ -2901,3 +2901,133 @@ Invoking: GCC C Linker
 gcc  -o "swap"  ./swap.o   
 Finished building target: swap
  
+13:51:52 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:51:53 **** Build of configuration Debug for project rSwap ****
+make all 
+Building file: ../rSwap.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"rSwap.d" -MT"rSwap.d" -o "rSwap.o" "../rSwap.c"
+Finished building: ../rSwap.c
+ 
+Building target: rSwap
+Invoking: GCC C Linker
+gcc  -o "rSwap"  ./rSwap.o   
+Finished building target: rSwap
+ 
+13:51:55 **** Incremental Build of configuration Debug for project rSwap ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:56:31 **** Build of configuration Debug for project globalRetur ****
+make all 
+Building file: ../global.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"global.d" -MT"global.d" -o "global.o" "../global.c"
+Finished building: ../global.c
+ 
+Building target: globalRetur
+Invoking: GCC C Linker
+gcc  -o "globalRetur"  ./global.o   
+Finished building target: globalRetur
+ 
+13:56:31 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:56:34 **** Incremental Build of configuration Debug for project globalRetur ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:56:42 **** Incremental Build of configuration Debug for project globalRetur ****
+make all 
+Building file: ../global.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"global.d" -MT"global.d" -o "global.o" "../global.c"
+Finished building: ../global.c
+ 
+Building target: globalRetur
+Invoking: GCC C Linker
+gcc  -o "globalRetur"  ./global.o   
+Finished building target: globalRetur
+ 
+13:56:42 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+13:56:45 **** Incremental Build of configuration Debug for project globalRetur ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:00:04 **** Incremental Build of configuration Debug for project globalRetur ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:00:04 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:00:05 **** Build of configuration Debug for project pointerReturn ****
+make all 
+Building file: ../pointerreturn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointerreturn.d" -MT"pointerreturn.d" -o "pointerreturn.o" "../pointerreturn.c"
+Finished building: ../pointerreturn.c
+ 
+Building target: pointerReturn
+Invoking: GCC C Linker
+gcc  -o "pointerReturn"  ./pointerreturn.o   
+Finished building target: pointerReturn
+ 
+14:00:07 **** Incremental Build of configuration Debug for project pointerReturn ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:45:41 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:45:41 **** Incremental Build of configuration Debug for project pointerReturn ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:45:42 **** Build of configuration Debug for project structReturn ****
+make all 
+Building file: ../structReturn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"structReturn.d" -MT"structReturn.d" -o "structReturn.o" "../structReturn.c"
+Finished building: ../structReturn.c
+ 
+Building target: structReturn
+Invoking: GCC C Linker
+gcc  -o "structReturn"  ./structReturn.o   
+Finished building target: structReturn
+ 
+14:46:11 **** Incremental Build of configuration Debug for project structReturn ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:48:58 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:48:58 **** Incremental Build of configuration Debug for project pointerReturn ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:48:58 **** Build of configuration Debug for project structPointer ****
+make all 
+Building file: ../structPointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"structPointer.d" -MT"structPointer.d" -o "structPointer.o" "../structPointer.c"
+Finished building: ../structPointer.c
+ 
+Building target: structPointer
+Invoking: GCC C Linker
+gcc  -o "structPointer"  ./structPointer.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: ld returned 1 exit status
+make: *** [structPointer] 오류 1
+14:51:17 **** Incremental Build of configuration Debug for project myungpurm ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:51:18 **** Incremental Build of configuration Debug for project pointerReturn ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+14:51:18 **** Incremental Build of configuration Debug for project structPointer ****
+make all 
+Building file: ../structPointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"structPointer.d" -MT"structPointer.d" -o "structPointer.o" "../structPointer.c"
+../structPointer.c: In function ‘main’:
+../structPointer.c:24:18: error: invalid type argument of unary ‘*’ (have ‘struct calc_t’)
+make: *** [structPointer.o] 오류 1

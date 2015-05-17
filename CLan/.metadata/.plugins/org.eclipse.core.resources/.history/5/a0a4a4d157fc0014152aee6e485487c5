@@ -1,0 +1,15 @@
+/*
+ * structReturn.c
+ *
+ *  Created on: 2015. 5. 17.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+struct calc_t {
+	int add;
+	int sub;
+	int mul;
+	int div;
+};

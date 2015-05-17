@@ -1,0 +1,28 @@
+/*
+ * pointerreturn.c
+ *
+ *  Created on: 2015. 5. 17.
+ *      Author: root
+ */
+
+#include <stdio.h>
+
+void calculate(int, int, int *, int *, int *, int *);
+
+int main(void) {
+
+	int x = 7, y = 5;
+	int *add, *sub, *mul, *div;
+
+	return 0;
+}
+
+void calculate(int x, int y, int *add, int *sub, int *mul, int *div) {
+
+	*add = x + y;
+	*sub = x - y;
+	*mul = x * y;
+	*div = x / y;
+
+
+}

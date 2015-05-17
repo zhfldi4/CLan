@@ -1,0 +1,1 @@
+pointerreturn.d: ../pointerreturn.c
