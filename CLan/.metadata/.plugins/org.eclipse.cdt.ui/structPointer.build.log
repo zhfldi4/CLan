@@ -1,11 +1,15 @@
-14:51:18 **** Incremental Build of configuration Debug for project structPointer ****
+14:52:19 **** Incremental Build of configuration Debug for project structPointer ****
 make all 
 Building file: ../structPointer.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"structPointer.d" -MT"structPointer.d" -o "structPointer.o" "../structPointer.c"
-../structPointer.c: In function ‘main’:
-../structPointer.c:24:18: error: invalid type argument of unary ‘*’ (have ‘struct calc_t’)
-make: *** [structPointer.o] 오류 1
+Finished building: ../structPointer.c
+ 
+Building target: structPointer
+Invoking: GCC C Linker
+gcc  -o "structPointer"  ./structPointer.o   
+Finished building target: structPointer
+ 
 
-14:51:18 Build Finished (took 174ms)
+14:52:19 Build Finished (took 229ms)
 

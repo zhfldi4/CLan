@@ -1,0 +1,1 @@
+structPointer.d: ../structPointer.c

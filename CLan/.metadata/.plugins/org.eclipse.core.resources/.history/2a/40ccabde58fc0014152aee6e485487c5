@@ -21,7 +21,7 @@ int main(void) {
 	int x = 7, y = 5;
 	struct calc_t tmp;
 
-	calculate(x, y, &tmp);
+	calculate(x, y, *tmp);
 
 	printf("%d + %d = %d\n", x, y, tmp.add);
 	printf("%d - %d = %d\n", x, y, tmp.sub);
